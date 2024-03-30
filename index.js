@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [FranceKing, FranceKing1,FranceKing2,FranceKing3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{DEXTER-MD}...[][]");
+            console.log("\t [][]...{MASTER-MD}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from the group : " + nomGroupe);
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Dexter-Md',
+                                        pack: 'Master-Md',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Dexter-Md',
+                pack: 'Master-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -663,14 +663,14 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg';
+        ppgroup = 'https://telegra.ph/file/ebdb1b88647fd8de9551f.jpg';
     }
 
     try {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `◇DEXTER-MD◇
+            let msg = `◇MASTER-MD◇
 `;
              
             let membres = group.participants;
@@ -688,11 +688,11 @@ zk.ev.on('group-participants.update', async (group) => {
 
 ${metadata.desc}
 
-📌Powred by *DEXTER King®🐐*`;
+📌CREATED BY *MASTER MIND®🐐*`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = ` *Goodbye Frinds group owner මෙත දැනුවත් කිරිමකි එක් පුද්ගලයෙක් group එකෙන් left උවා 📌 [POWER BY DEXTER]*\n`;
+            let msg = ` *සමූහයෙන් එක් අයෙකු පිට විය.. 📌 [POWER BY MASTER MIND]*\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
@@ -858,26 +858,23 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『DEXTER-MD is CONNECTED』*
+*MASTER-MD IS CONNECTED ✅*
 
      
-║❒Creator: *DEXTER*
+║❒Creator: *SAHAN*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
-║❒Created on : *22.2.2024*
+║❒Time : ${temps} 
+║❒Date : ${date}
 ║❒Total Commands : ${evt.cm.length}︎
+║❒User : ${s.OWNER_NAME}
+║❒Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+║❒Platform : ${os.platform()}
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║❒ Supported : Hemal veenath
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-     ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
-     ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
- 
-║❒ _Join *DEXTER-MD* Channel for Updates_
-https://whatsapp.com/channel/0029VaOoODA65yDHLCqskX11_
-
-║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/KGtgYAU9Qv14v5iU0qBUbV 
-
-
-              *DEXTER-MD*`;
+     *MASTER-MD*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
