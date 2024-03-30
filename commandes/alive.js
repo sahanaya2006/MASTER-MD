@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *FLASH-MD by France King is alive*`
+ *MASTER-MD by MASTER MIND is alive*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -73,16 +73,8 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("*`MASTER-MD IS ALIVE NOW`* ✅
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-*`Supported Channel`* https://whatsapp.com/channel/0029VaWWZa1G3R3c4TPADo0M
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*`Repo Link`* 
-https://github.com/maduwa2006/MASTER-MD
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ꜱᴀʜᴀɴ ᴏꜰᴄ");
-         repondre(" *Supported By @Hemal Veemath & @Kanishka de silva*")
+      await   repondre("*MASTER-MD is Alive Now ✅💀*");
+         repondre(" *Type .menu to Commands list 👨‍💻💀*")
      }
  } else {
 
