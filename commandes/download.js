@@ -3,7 +3,7 @@ const fs = require('fs');
 const getFBInfo = require("@xaviabot/fb-downloader");
 const { default: axios } = require('axios');
 
-zokou({nomCom : "igdl" , categorie : "Download"},async (dest , zk , commandeOptions)=>{
+zokou({nomCom : "insta" , categorie : "Download"},async (dest , zk , commandeOptions)=>{
   const {ms,repondre,arg} = commandeOptions ;
 
   let link = arg.join(' ')
@@ -27,7 +27,7 @@ zokou({nomCom : "igdl" , categorie : "Download"},async (dest , zk , commandeOpti
 
 
 zokou({
-  nomCom: "fbdl",
+  nomCom: "fb",
   categorie: "Download",
   reaction: "📽️"
 },
@@ -91,7 +91,7 @@ Description: ${tik.desc}
 });
 
 zokou({
-  nomCom: "fbdl2",
+  nomCom: "fb2",
   categorie: "Download",
   reaction: "📽️"
 },
