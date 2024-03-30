@@ -6,7 +6,7 @@ MASTER-MD WHATSAPP USER BOT CREATED BY MR SAHAN OFC 💀🔥
 
 
 <div align="left">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Rubik+Dirt&size=65&pause=1000&color=F72C3F&background=FF20A500&center=true&vCenter=true&width=1000&height=150&lines=MASTER+MD;Created+By+Sahan" alt="Typing SVG" /></a>   
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Rubik+Dirt&size=65&pause=1000&color=F72C3F&background=FF20A500&center=true&vCenter=true&width=1000&height=150&lines=MASTER+MD;Created+By+MASTER_MIND;Sahan+Maduwantha" alt="Typing SVG" /></a>   
 </p> 
 
    <p align="center">
