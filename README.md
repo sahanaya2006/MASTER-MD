@@ -29,13 +29,11 @@ MASTER-MD whatsapp bot is,
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 
-[ℚℝ 𝕊𝕔𝕒𝕟 & 𝔻𝕖𝕡𝕝𝕠𝕪](http://659acd2702b38.site123.me/)
- 
-### 📸 ＳＣＡＮ ＱＲ ＣＯＤＥ 📸
- ## [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@SahanMadu/REDGANG-MD#index.js)
+[`SCANING QR`](https://flash-md-qr.onrender.com)
+[`PAIRING CODE`](https://flashmd-session-5fea4d73011f.herokuapp.com/pair)
 
 ﻿<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 ## ```HEROKU DEPLOYMENT```
-# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sahanaya2006/REDGANG-MD)
+# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maduwa12006/MASTER-MD)
 
 
