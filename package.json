@@ -1,5 +1,5 @@
 {
-  "name": "DEXTER-MD",
+  "name": "MASTER-MD",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "dexter-Md",
+    "master-Md",
     "whatsapp",
     "whatsapp-bot",
-    "dexter"
+    "master"
   ],
-  "author": "dexter",
+  "author": "sahan",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
