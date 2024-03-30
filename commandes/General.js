@@ -55,10 +55,10 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "👨‍💻" }, as
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "💀 *Sahan Maduwantha* 💀", numero: "https://wa.me/+94789958225" },
-      { nom: "💀 *Hemal Veenath* 💀", numero: "https://wa.me/+94719552053" },
-        { nom: "💀 *Kanishka de Silva* 💀", numero: "https://wa.me/+94722477361" },
-        { nom: "💀 *Cyber Buddy* 💀", numero: "https://wa.me/+94728103228" },
+      { nom: "💀 *Sahan Maduwantha* 💀", numero: "94789958225" },
+      { nom: "💀 *Hemal Veenath* 💀", numero: "94719552053" },
+        { nom: "💀 *Kanishka de Silva* 💀", numero: "94722477361" },
+        { nom: "💀 *Cyber Buddy* 💀", numero: "94728103228" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
