@@ -1,10 +1,8 @@
 # MASTER-MD
 MASTER-MD WHATSAPP USER BOT CREATED BY MR SAHAN OFC 💀🔥
 
-# MASTER-MD 
-Whata App User BOT___✔ 
 <div align="center">
-    ✨<b>🔥🌟𝐌𝐀𝐒𝐓𝐄𝐑-𝐌𝐃🌟🔥</b>✨</b> 
+    ✨<b>💀🥷MASTER-MD🥷💀</b>✨</b> 
 
 
   
@@ -16,13 +14,9 @@ Whata App User BOT___✔
 
    <p align="center">
 <a href="https://github.com/maduwa2006">
-    <img src="https://avatars.githubusercontent.com/u/151435240?v=4" width="700px">
+    <img src="https://telegra.ph/file/ebdb1b88647fd8de9551f.jpg" width="700px">
   </a>
   
-
-# MASTER-MD Whatsapp Bot
-
-
 MASTER-MD whatsapp bot is,
 
       MASTER-MD බොට් යනු මාගෙ ප්‍රථම WhatsApp Bot ය.   |  MASTER-MD බොට් යනු ඔබට පහසුවෙන් භාවිත කල හැකි බොට් වරයෙකි.
