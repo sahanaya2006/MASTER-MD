@@ -10,7 +10,7 @@ const yts1 = require("youtube-yts");
 zokou({
   nomCom: "song",
   categorie: "Search",
-  reaction: "💿"
+  reaction: "🎵"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
      
@@ -36,7 +36,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*Sahan-MD SONG DOWNLOADING......*_\n\n`
+_*MASTER-MD SONG DOWNLOADING......*_\n\n`
        }
 
       
@@ -110,7 +110,7 @@ zokou({
 *Url :* _${Element.url}_
 
 
-_*Sahan-MD VIDEO DOWNLOADING......*_\n\n`
+_*MASTER-MD VIDEO DOWNLOADING......*_\n\n`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
