@@ -14,7 +14,7 @@ MASTER-MD WHATSAPP USER BOT CREATED BY MR SAHAN OFC 💀🔥
 
    <p align="center">
 <a href="https://github.com/maduwa2006">
-    <img src="https://telegra.ph/file/ebdb1b88647fd8de9551f.jpg" width="700px">
+    <img src="https://telegra.ph/file/3b5e3a9b55b5ec0df4bf8.jpg" width="700px">
   </a>
   
 MASTER-MD whatsapp bot is,
