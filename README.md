@@ -30,11 +30,11 @@ MASTER-MD whatsapp bot is,
 
 <a href="https://dexter-md-pair-code-2535d3cf470f.herokuapp.com/"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-red" alt="LOGIN WITH PAIR CODE" width="250"></a>
 
-# QR CODE SCAN
+## QR CODE SCAN
 
 <a href="https://dexter--7-62f45bcdac73.herokuapp.com/"><img src="https://img.shields.io/badge/LOGIN%20WITH-QR%20CODE-red" alt="LOGIN WITH PAIR CODE" width="250"></a>
 ﻿<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 ## ```HEROKU DEPLOYMENT```
-# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maduwa12006/MASTER-MD)
+# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maduwa2006/MASTER-MD)
 
 
