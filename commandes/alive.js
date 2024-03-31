@@ -71,7 +71,7 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("there is no alive for this bot") ; return};
+        if(!superUser) { repondre("*MASTER-MD is Alive Now ✅💀*") ; return};
 
       await   repondre("*MASTER-MD is Alive Now ✅💀*");
          repondre(" *Type .menu to Commands list 👨‍💻💀*")
