@@ -27,7 +27,7 @@ zokou({nomCom : "insta" , categorie : "Download"},async (dest , zk , commandeOpt
 
 
 zokou({
-  nomCom: "fb",
+  nomCom: "fb2",
   categorie: "Download",
   reaction: "📽️"
 },
@@ -49,7 +49,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *Sahan-MD*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: '*Facebook Video Downloader Created By Mr Sahan Ofc*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -91,7 +91,7 @@ Description: ${tik.desc}
 });
 
 zokou({
-  nomCom: "fb2",
+  nomCom: "fb",
   categorie: "Download",
   reaction: "📽️"
 },
@@ -113,7 +113,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *Sahan-MD*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.sd  }, caption: '*Facebook Video Dowloader Created By Mr Sahan Ofc*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
