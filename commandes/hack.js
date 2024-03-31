@@ -1,8 +1,11 @@
-const {fetchJson,cmd, tlang,sleep } = require('../lib')
+const { zokou } = require('../framework/zokou');
+const {addOrUpdateDataInAlive , getDataFromAlive} = require('../bdd/alive')
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
 
 //---------------------------------------------------------------------------
 
-cmd({
+zokou({
 
             pattern: "hack",
 
@@ -90,7 +93,7 @@ citel.reply("``` SUCCESSFULLY SENT DATA AND Connection disconnected```")
 
 await sleep(1000)
 
-            return citel.reply('*Sahan is Hacked your WhatsApp Successfuly_😈*');
+            return citel.reply('*MASTER is Hacked your WhatsApp Successfuly_😈*');
 
         }
 
