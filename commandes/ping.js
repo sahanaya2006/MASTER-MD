@@ -1,27 +1,31 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "ping", reaction: "💯", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-    console.log("Commande saisie !!!s");
-    let z = 'PING SPEED⌛*MASTER-MD* \n\n ' + "LOADING⏳💀..✨✨✨..100℅✅";
-    let d = '𝗣𝗢𝗡𝗚:1090000000𝗠𝗦⏳*';
-    let varmess = z + d;
-    var img = 'https://telegra.ph/file/3b5e3a9b55b5ec0df4bf8.jpg';
-    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
-    //console.log("montest")
-});
-console.log("mon test");
-/*module.exports.commande = () => {
-  var nomCom = ["test","t"]
-  var reaction="☺️"
-  return { nomCom, execute,reaction }
-};
-
-async function  execute  (origineMessage,zok) {
-  console.log("Commande saisie !!!s")
-   let z ='Salut je m\'appelle *Zokou* \n\n '+'je suis un bot Whatsapp Multi-appareil '
-      let d =' developpé par *Djalega++*'
-      let varmess=z+d
-      var img='https://wallpapercave.com/uwp/uwp3842939.jpeg'
-await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
-}  */ 
+/**
+========================================================
+      █▄▀ █ █▄ █ ▄▀     █▄ ▄█ █▀▄
+      █ █ █ █ ▀█ ▀▄█ ▀▀ █ ▀ █ █▄▀
+========================================================
+ Copyright (C) 2022.                                                                                        
+ Licensed under the  GPL-3.0 License;                                                      
+ You may not use this file except in compliance with the License.    
+ It is supplied in the hope that it may be useful                                     
+ * @project_name : KING-MD                                                                   
+ * @author : naveeddogar <https://github.com/naveeddogar>   
+ * @description : KING-MD ,A Multi-functional whatsapp bot.       
+ * @version 1.0.1                                                                                             
+ ========================================================
+ **/
+ 
+const Secktor = require('../lib')
+Secktor.cmd({
+        pattern: "ping",
+        desc: "To check ping",
+        category: "general",
+        filename: __filename,
+    },
+    async(Void, citel) => {
+        var inital = new Date().getTime();
+        const { key } = await Void.sendMessage(citel.chat, {text: '```Authorizing...```'});
+        var final = new Date().getTime();
+       // await Secktor.sleep(1000)
+       return await Void.sendMessage(citel.chat, {text: '*Lᴀᴛᴇɴᴄʏ*\n *' + (final - inital) + ' ms* ', edit: key});
+    }
+);
