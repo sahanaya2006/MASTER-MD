@@ -96,8 +96,16 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("💀 *MASTER-MD Developer @Sahan's Number \n +94720797915* 💀")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/94720797915`},{quoted :ms})
+  repondre("💀 *MASTER-MD Developer @Sahan's Number* 💀 \n *+94720797915* ")
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/94720797915?text=Hey_MASTER-MD_Owner_👨‍💻✅`},{quoted :ms})
+
+});
+zokou({ nomCom: "sahan", categorie: "Creator" }, async (dest, zk, commandeOptions) => {
+  const { ms, repondre, auteurMessage, } = commandeOptions; 
+ 
+  repondre("💀 *MASTER-MD USER BOT CREATED BY SAHAN 💀* \n *💀 FROM GALEWELA 💀* \n *💀 AGE 17 YEARS OLD 💀* \n *👨‍💻©MR Sahan Ofc👨‍💻*")
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/94720797915?text=Hey_MASTER-MD_Owner_👨‍💻✅`},{quoted :ms})
 
 })
+
 
