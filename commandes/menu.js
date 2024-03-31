@@ -31,7 +31,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╒═══💀MASTER-MD💀═══════⫸
+╒═══💀𝗠𝗔𝗦𝗧𝗘𝗥-𝗠𝗗💀═══════⫸
 │✅ *Prefix* : ${s.PREFIXE}
 │✅ *User* : ${s.OWNER_NAME}
 │✅ *Mode* : ${mode}
@@ -43,11 +43,12 @@ const date = moment().format('DD/MM/YYYY');
 │✅ *Developer* : Mr Sahan Ofc
 │✅ *Version* : V1.0
 │✅ *Github* : maduwa2006
-╘═══💀MASTER_MIND💀═══⫸◆ \n\n`;
+╘═══💀𝗠𝗔𝗦𝗧𝗘𝗥_𝗠𝗜𝗡𝗗💀═══⫸◆ \n\n`;
 
   let menuMsg=`  
 
-*MASTER-MD COMMANDS :*`;
+*MASTER-MD COMMANDS :*
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬`;
 
     for (const cat in coms) {
         menuMsg += `*╭────💀* *${cat}* *💀⊷*`;
