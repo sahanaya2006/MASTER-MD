@@ -103,8 +103,8 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
 zokou({ nomCom: "sahan", categorie: "Creator" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("💀 *MASTER-MD USER BOT CREATED BY SAHAN 💀* \n *💀 FROM GALEWELA 💀* \n *💀 AGE 17 YEARS OLD 💀* \n *👨‍💻©MR Sahan Ofc👨‍💻*")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/94720797915?text=Hey_MASTER-MD_Owner_👨‍💻✅`},{quoted :ms})
+  repondre("💀 *MASTER-MD USER BOT CREATED BY SAHAN 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀FROM GALEWELA💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀 17 YEARS OLD 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  © Created By MASTER MIND..👨‍💻 ")
+  await zk.sendMessage(auteurMessage,{text : `*Leader Link https://wa.me/94720797915?text=Hey_Owner_👨‍💻✅*`},{quoted :ms})
 
 })
 
