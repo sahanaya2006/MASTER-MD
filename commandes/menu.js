@@ -24,15 +24,15 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault('Africa/Nairobi');
+    moment.tz.setDefault('Asia/colombo');
 
 // Create a date and time in EAT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╒═══════💀MASTER-MD💀═══════⫸
-│✅ *Préfix* : ${s.PREFIXE}
+╒═══💀MASTER-MD💀═══════⫸
+│✅ *Prefix* : ${s.PREFIXE}
 │✅ *User* : ${s.OWNER_NAME}
 │✅ *Mode* : ${mode}
 │✅ *Commands* : ${cm.length} 
@@ -41,18 +41,16 @@ const date = moment().format('DD/MM/YYYY');
 │✅ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │✅ *Platform* : ${os.platform()}
 │✅ *Developer* : Mr Sahan Ofc
-│✅ *Version* : 𝐯1.0
-│✅ *Supprted* : Hemal veenath
-╘═══════💀MASTER_MIND💀═══⫸◆ \n\n`;
+│✅ *Version* : V1.0
+│✅ *Github* : maduwa2006
+╘═══💀MASTER_MIND💀═══⫸◆ \n\n`;
 
   let menuMsg=`  
 
-*MASTER-MD COMMANDS :*
-◇                             ◇
-`;
+*MASTER-MD COMMANDS :*`;
 
     for (const cat in coms) {
-        menuMsg += `*╭────🔥* *${cat}* *🔥⊷*`;
+        menuMsg += `*╭────💀* *${cat}* *💀⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
  *👨‍💻* ${cmd}`;
@@ -63,7 +61,7 @@ const date = moment().format('DD/MM/YYYY');
 
     menuMsg += `
 ◇            ◇
-*————— ★ —————*
+*————— MASTER MIND —————*
 
   *💀MASTER-MD WhatsApp User Bot💀*                                         
 *╰═════════════⊷*
