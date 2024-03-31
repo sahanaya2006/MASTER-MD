@@ -8,9 +8,9 @@ const yts1 = require("youtube-yts");
 //var fs =require("fs-extra")
 
 zokou({
-  nomCom: "play",
+  nomCom: "song",
   categorie: "Search",
-  reaction: "💿"
+  reaction: "🎵"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
      
@@ -36,7 +36,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*on downloading...*_\n\n`
+_*MASTER-MD SONG DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
        }
 
       
@@ -106,7 +106,7 @@ zokou({
         caption: `*Video name :* _${Element.title}_
 *Time :* _${Element.timestamp}_
 *Url :* _${Element.url}_
-_*On downloading...*_\n\n`
+_*MASTER-MD VIDEO DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
