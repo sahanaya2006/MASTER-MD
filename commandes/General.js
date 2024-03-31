@@ -55,14 +55,14 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "👨‍💻" }, as
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "💀 *Sahan Maduwantha* 💀", numero: "94789958225" },
-      { nom: "💀 *Hemal Veenath* 💀", numero: "94719552053" },
-        { nom: "💀 *Kanishka de Silva* 💀", numero: "94722477361" },
-        { nom: "💀 *Cyber Buddy* 💀", numero: "94728103228" },
+      { nom: "💀 *✔️.Creater :Sahan Maduwantha* 💀", numero: "94789958225" },
+      { nom: "💀 *✔️.Co Leader : Hemal Veenath* 💀", numero: "94719552053" },
+        { nom: "💀 *✔️.Bug Test : Kanishka de Silva* 💀", numero: "94722477361" },
+        { nom: "💀 *✔️.Test : Cyber Buddy* 💀", numero: "94728103228" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 *WELCOME TO MASTER-MD WHATSAPP USER BOT* \n\n";
+    let message = "👋 *WELCOME TO MASTER-MD WHATSAPP USER BOT.. MASTER-MD DEVELOPERS ARE* \n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -96,7 +96,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("💀 *MASTER-MD Developer @Sahan's Number* 💀")
+  repondre("💀 *MASTER-MD Developer @Sahan's Number \n +94720797915* 💀")
   await zk.sendMessage(auteurMessage,{text : `https://wa.me/94720797915`},{quoted :ms})
 
 })
