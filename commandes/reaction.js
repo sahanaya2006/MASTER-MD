@@ -87,6 +87,7 @@ generateReactionCommand("bonk", "🔨");
 generateReactionCommand("yeet", "🚀");
 generateReactionCommand("blush", "😊");
 generateReactionCommand("smile", "😄");
+generateReactionCommand("sahan", "💀");
 generateReactionCommand("wave", "👋");
 generateReactionCommand("highfive");
 generateReactionCommand("handhold");
