@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
 │✅ *Developer* : Mr Sahan Ofc
 │✅ *Version* : 𝐯1.0
 │✅ *Supprted* : Hemal veenath
-╘════════💀MASTER_MIND💀════════⫸◆ \n\n`;
+╘═══════💀MASTER_MIND💀═══⫸◆ \n\n`;
 
   let menuMsg=`  
 
@@ -52,7 +52,7 @@ const date = moment().format('DD/MM/YYYY');
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────☢️* *${cat}* *☢️⊷*`;
+        menuMsg += `*╭────🔥* *${cat}* *🔥⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
  *👨‍💻* ${cmd}`;
@@ -65,7 +65,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌MASTER MIND©🐐²0²⁴*                                         
+  *💀MASTER-MD WhatsApp User Bot💀*                                         
 *╰═════════════⊷*
 `;
 
