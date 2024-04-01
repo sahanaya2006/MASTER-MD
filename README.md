@@ -41,7 +41,6 @@ MASTER-MD whatsapp bot is,
 <a href="https://github.com/maduwa2006/MASTER-MD/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
- [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/maduwa2006/MASTER-MD)
+[Deploy on Heroku](https://dashboard.heroku.com/new?template=https://github.com/Purnageethanajana/DEXTER-V1-MD/)
 
-   </details>
-</P>
+   
