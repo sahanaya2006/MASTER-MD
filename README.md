@@ -1,4 +1,4 @@
-# MASTER-MD
+## MASTER-MD
 MASTER-MD WHATSAPP USER BOT CREATED BY MR SAHAN OFC 💀🔥
 
 <div align="center">
@@ -41,7 +41,3 @@ MASTER-MD whatsapp bot is,
 <a href="https://heroku.com/deploy?template=https://github.com/maduwa2006/MASTER-MD" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
-## ```HEROKU DEPLOYMENT```
-# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maduwa2006/MASTER-MD)
-
-
