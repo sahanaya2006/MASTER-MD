@@ -9,6 +9,7 @@ MASTER-MD WHATSAPP USER BOT CREATED BY MR SAHAN OFC 💀🔥
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Rubik+Dirt&size=65&pause=1000&color=F72C3F&background=FF20A500&center=true&vCenter=true&width=1000&height=150&lines=MASTER+MD;CREATED+BY+MASTER_MIND;Sahan+Maduwantha" alt="Typing SVG" /></a>   
 </p> 
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
    <p align="center">
 <a href="https://github.com/maduwa2006">
     <img src="https://telegra.ph/file/3b5e3a9b55b5ec0df4bf8.jpg" width="700px">
@@ -30,6 +31,7 @@ MASTER-MD whatsapp bot is,
 <a href="https://github.com/maduwa2006/MASTER-MD/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
       
 <div align="center">
    
@@ -37,10 +39,9 @@ MASTER-MD whatsapp bot is,
 
 <div>
 <br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <a href="https://dexter-pair-271d65472856.herokuapp.com/"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-black" alt="LOGIN WITH PAIR CODE" width="250"></a>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
