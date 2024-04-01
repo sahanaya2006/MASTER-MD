@@ -13,12 +13,13 @@ MASTER-MD WHATSAPP USER BOT CREATED BY MR SAHAN OFC 💀🔥
 <a href="https://github.com/maduwa2006">
     <img src="https://telegra.ph/file/3b5e3a9b55b5ec0df4bf8.jpg" width="700px">
   </a>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
   
 MASTER-MD whatsapp bot is,
 
       MASTER-MD බොට් යනු මාගෙ ප්‍රථම WhatsApp Bot ය.   |  MASTER-MD බොට් යනු ඔබට පහසුවෙන් භාවිත කල හැකි බොට් වරයෙකි.
 
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">
 
@@ -41,9 +42,13 @@ MASTER-MD whatsapp bot is,
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ### DEPLOY HEROKU
 
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maduwa2006/MASTER-MD)
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### Contact My Main Owner
  <p align="center">
@@ -53,7 +58,7 @@ MASTER-MD whatsapp bot is,
   </a>
 
 
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### DEVELOPER
 <a href="https://github.com/maduwa2006"><img src="https://github.com/maduwa2006.png" width="200" height="200" alt="Ash"/></a>
