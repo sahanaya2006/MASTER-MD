@@ -25,10 +25,11 @@ MASTER-MD whatsapp bot is,
   <a aria-label="WhatsApp Supported Channel" href="https://whatsapp.com/channel/0029VaWWZa1G3R3c4TPADo0M" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
-  
+  <p align="center">
 <a href="https://github.com/maduwa2006/MASTER-MD/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
+      
 <div align="center">
    
 <a href="https://dexter--7-62f45bcdac73.herokuapp.com/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
@@ -42,10 +43,11 @@ MASTER-MD whatsapp bot is,
 
 ### DEPLOY HEROKU
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sahanaya2006/REDGANG-MD)
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maduwa2006/MASTER-MD)
 
 ### Contact My Main Owner
- [![Deploy](https://www.whatapp.com/button.svg)](https://heroku.com/deploy?template=https://github.com/sahanaya2006/REDGANG-MD)
+ [whatapp](https://wa.me/+94720797915?text=Hey_Owner_💀)
+
 
 
 
