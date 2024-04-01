@@ -103,16 +103,29 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
 zokou({ nomCom: "sahan", categorie: "Creator" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("💀 *MASTER-MD BOT CREATED BY SAHAN 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀FROM GALEWELA💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀 17 YEARS OLD 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  © Created By MASTER MIND..👨‍💻 ")
+  repondre("💀 *MASTER-MD BOT CREATED BY SAHAN 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀FROM GALEWELA💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀 17 YEARS OLD 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  *© Created By MASTER MIND..👨‍💻* ")
   await zk.sendMessage(auteurMessage,{text : `*Leader Link https://wa.me/94720797915?text=Hey_Owner_👨‍💻✅*`},{quoted :ms})
 
 });
 zokou({ nomCom: "hemal", categorie: "Creator" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("💀 *MASTER-MD Bot Co leader is Mr Hemal Veenath. 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀From Galewela💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀 21 Years Old💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  © Created By MASTER MIND..👨‍💻 ")
-  await zk.sendMessage(auteurMessage,{text : `*Co Leader Link https://wa.me/94720797915?text=Hey_Co_Leader_👨‍💻✅*`},{quoted :ms})
+  repondre("💀 *MASTER-MD Bot Co leader is Mr Hemal Veenath. 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀From Galewela💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀 21 Years Old💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  *© Created By MASTER MIND..👨‍💻* ")
+  await zk.sendMessage(auteurMessage,{text : `*Co Leader Link https://wa.me/+94719552053?text=Hey_Co_Leader_👨‍💻✅*`},{quoted :ms})
 
 });
+zokou({ nomCom: "kanishka", categorie: "Creator" }, async (dest, zk, commandeOptions) => {
+  const { ms, repondre, auteurMessage, } = commandeOptions; 
+ 
+  repondre("💀 *MASTER-MD Bot Bug Tester is Kanishka De Silva 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀From Ambalangoda💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀 17 Years Old💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  *© Created By MASTER MIND..👨‍💻* ")
+  await zk.sendMessage(auteurMessage,{text : `*Bug Tester Link https://wa.me/+94722477361?text=Hey_Owner_👨‍💻✅*`},{quoted :ms})
 
+});
+zokou({ nomCom: "kavi", categorie: "Creator" }, async (dest, zk, commandeOptions) => {
+  const { ms, repondre, auteurMessage, } = commandeOptions; 
+ 
+  repondre("💀 *MASTER-MD Tester is Mr Cyber kavi 💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀From Sri Lanka💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀 17 Years Old💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  *© Created By MASTER MIND..👨‍💻* ")
+  await zk.sendMessage(auteurMessage,{text : `*Tester Link https://wa.me/+94743579892?text=Hey_Tester_👨‍💻✅*`},{quoted :ms})
+
+})
 
