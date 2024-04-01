@@ -32,12 +32,16 @@ MASTER-MD whatsapp bot is,
 
 <div>
 <br>
+##  PAIRING CODE SCAN
+
+<a href="https://dexter-pair-271d65472856.herokuapp.com/"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-gold" alt="LOGIN WITH PAIR CODE" width="250"></a>
 
 ## Deploy to Heroku ↓
 
 <a href="https://github.com/maduwa2006/MASTER-MD/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/maduwa2006/MASTER-MD" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
+ [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/maduwa2006/MASTER-MD)
+
+   </details>
+</P>
