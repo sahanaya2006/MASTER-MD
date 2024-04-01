@@ -46,7 +46,11 @@ MASTER-MD whatsapp bot is,
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maduwa2006/MASTER-MD)
 
 ### Contact My Main Owner
- [whatapp](https://wa.me/+94720797915?text=Hey_Owner_💀)
+ <p align="center">
+
+  <a aria-label="Owner WhatsApp Channel" href="https://wa.me/+94720797915?text=Hey_Sahan_🔥" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/WhatsApp Owner-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
 
 
 
