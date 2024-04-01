@@ -47,8 +47,5 @@ MASTER-MD whatsapp bot is,
 
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sahanaya2006/REDGANG-MD)
 
-Developer,
-
- [![Kanishka De Silva](https://www.whatsapp.com/contact/button.svg)](https://heroku.com/deploy?template=https://github.com/sahanaya2006/REDGANG-MD)
- [![Hemal Veenath](https://www.whatsapp.com/contact/button.svg)](https://heroku.com/deploy?template=https://github.com/sahanaya2006/REDGANG-MD)
- [![Cyber Buddy](https://www.whatsapp.com/contact/button.svg)](https://heroku.com/deploy?template=https://github.com/sahanaya2006/REDGANG-MD)
+### DEVELOPER
+<a href="https://github.com/maduwa2006"><img src="https://github.com/maduwa2006.png" width="200" height="200" alt="Ash"/></a>
