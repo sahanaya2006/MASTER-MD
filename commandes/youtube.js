@@ -52,6 +52,15 @@ zokou({
 
 *Url :* _${videos[0].url}_
 
+*Title:* ${videos[0].title}
+
+*Duration:* ${videos[0].timestamp}
+
+*Viewers:* ${videos[0].views}
+
+*Uploaded:* ${videos[0].ago}
+
+*Author:* ${videos[0].author.name}
 
 _*MASTER-MD SONG DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
        }
@@ -123,6 +132,11 @@ zokou({
         caption: `*Video name :* _${Element.title}_
 *Time :* _${Element.timestamp}_
 *Url :* _${Element.url}_
+*Title:* ${Element.title}
+*Duration:* ${Element.timestamp}
+*Viewers:* ${Element.views}
+*Uploaded:* ${Element.ago}
+*Author:* ${Element.author.name}
 _*MASTER-MD VIDEO DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
       };
 
