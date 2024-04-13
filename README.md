@@ -1,4 +1,3 @@
-## MASTER-MD
 MASTER-MD WHATSAPP USER BOT CREATED BY MR SAHAN OFC 💀🔥
 
 <div align="center">
