@@ -34,7 +34,7 @@ MASTER-MD whatsapp bot is,
       
 <div align="center">
    
-<a href="https://masterv1-1356e3fea84b.herokuapp.com/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
+<a href="https://master-md-v1-5ec739b64314.herokuapp.com/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
 
 <div>
 <br>
