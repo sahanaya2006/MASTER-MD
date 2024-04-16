@@ -77,7 +77,6 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "👨‍💻" }, as
       { nom: "💀 *✔️.Co Leader : Hemal Veenath* 💀", numero: "94719552053" },
         { nom: "💀 *✔️.Bug Test : Kanishka de Silva* 💀", numero: "94722477361" },
         { nom: "💀 *✔️.Test : Cyber Buddy* 💀", numero: "94728103228" },
-         { nom: "💀 *© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ* 💀" }
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
