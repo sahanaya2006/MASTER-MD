@@ -60,7 +60,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *MASTER-MD by MASTER MIND is alive*`
+ *MASTE-MD IS ALIVE NOW..!*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
