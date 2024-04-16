@@ -46,13 +46,7 @@ zokou({
           
        let infoMess = {
           image: {url : videos[0]. thumbnail},
-         caption : `\n*song name :* _${videos[0].title}_
-
-*Time :* _${videos[0].timestamp}_
-
-*Url :* _${videos[0].url}_
-
-*Title:* ${videos[0].title}
+         caption : `\n*Title :* _${videos[0].title}_
 
 *Duration:* ${videos[0].timestamp}
 
@@ -60,7 +54,11 @@ zokou({
 
 *Uploaded:* ${videos[0].ago}
 
+*Time :* _${videos[0].timestamp}_
+
 *Author:* ${videos[0].author.name}
+
+*Url :* _${videos[0].url}_
 
 _*MASTER-MD SONG DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
        }
@@ -130,13 +128,21 @@ zokou({
       let InfoMess = {
         image: { url: videos[0].thumbnail },
         caption: `*Video name :* _${Element.title}_
+        
 *Time :* _${Element.timestamp}_
-*Url :* _${Element.url}_
+
 *Title:* ${Element.title}
+
 *Duration:* ${Element.timestamp}
+
 *Viewers:* ${Element.views}
+
 *Uploaded:* ${Element.ago}
+
 *Author:* ${Element.author.name}
+
+*Url :* _${Element.url}_
+
 _*MASTER-MD VIDEO DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
       };
 
