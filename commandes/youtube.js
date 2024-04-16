@@ -26,7 +26,7 @@ const yts1 = require("youtube-yts");
 
 zokou({
   nomCom: "song",
-  categorie: "Search",
+  categorie: "Download",
   reaction: "🎵"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
@@ -46,21 +46,35 @@ zokou({
           
        let infoMess = {
           image: {url : videos[0]. thumbnail},
-         caption : `\n*Title :* _${videos[0].title}_
+         caption : `\n *MASTER-MD SONG DOWNLOADER__🥷🏻🎼*
 
-*Duration:* ${videos[0].timestamp}
+*🔰𝐓ɪᴛʟᴇ :* 
+*${videos[0].title}*
+        
+*🔰𝐓ɪᴍᴇ :* 
+*${videos[0].timestamp}*
 
-*Viewers:* ${videos[0].views}
+*🔰𝐃ᴜʀᴀᴛɪᴏɴ:* 
+*${videos[0].timestamp}*
 
-*Uploaded:* ${videos[0].ago}
+*🔰𝐕ɪᴇᴡᴇʀꜱ:* 
+*${videos[0].views}*
 
-*Time :* _${videos[0].timestamp}_
+*🔰𝐔ᴘʟᴏᴀᴅᴇᴅ:* 
+*${videos[0].ago}*
 
-*Author:* ${videos[0].author.name}
+*🔰𝐀ᴜᴛʜᴏʀ:* 
+*${videos[0].author.name}*
 
-*Url :* _${videos[0].url}_
+*🔰𝐔ʀʟ:* 
+*${videos[0].url}*
 
-_*MASTER-MD SONG DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
+▬▬▬▬▬▬▬▬▬▬▬▬
+𝚈𝚘𝚞𝚛 𝚂𝚘𝚗𝚐 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️
+𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝___⏳
+▬▬▬▬▬▬▬▬▬▬▬▬
+*MASTER-MD SONG DOWNLOADER...👨‍💻*
+*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*\n\n`
        }
 
       
@@ -107,7 +121,7 @@ _*MASTER-MD SONG DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
 
 zokou({
   nomCom: "video",
-  categorie: "Search",
+  categorie: "Download",
   reaction: "🎥"
 }, async (origineMessage, zk, commandeOptions) => {
   const { arg, ms, repondre } = commandeOptions;
@@ -127,21 +141,35 @@ zokou({
 
       let InfoMess = {
         image: { url: videos[0].thumbnail },
-        caption: `*Title :* _${Element.title}_
+        caption: `*MASTER-MD VIDEO DOWNLOADER__🥷🏻📽️*
+
+*🔰𝐓ɪᴛʟᴇ:*
+*${Element.title}*
         
-*Time :* _${Element.timestamp}_
+*🔰𝐓ɪᴍᴇ:*
+*${Element.timestamp}*
 
-*Duration:* ${Element.timestamp}
+*🔰𝐃ᴜʀᴀᴛɪᴏɴ:*
+*${Element.timestamp}*
 
-*Viewers:* ${Element.views}
+*🔰𝐕ɪᴇᴡᴇʀꜱ:* 
+*${Element.views}*
 
-*Uploaded:* ${Element.ago}
+*🔰𝐔ᴘʟᴏᴀᴅᴇᴅ:*
+*${Element.ago}*
 
-*Author:* ${Element.author.name}
+*🔰𝐀ᴜᴛʜᴏʀ:*
+*${Element.author.name}*
 
-*Url :* _${Element.url}_
+*🔰𝐔ʀʟ:*
+*${Element.url}*
 
-_*MASTER-MD VIDEO DOWNLOADER CREATED BY MR SAHAN OFC...*_\n\n`
+▬▬▬▬▬▬▬▬▬▬▬▬
+*𝚈𝚘𝚞𝚛 𝚟𝚒𝚍𝚎𝚘 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️*
+*𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝___⏳*
+▬▬▬▬▬▬▬▬▬▬▬▬
+*MASTER-MD VIDEO DOWNLOADER...👨‍💻*
+*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*\n\n`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
