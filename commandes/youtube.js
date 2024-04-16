@@ -48,7 +48,7 @@ zokou({
           image: {url : videos[0]. thumbnail},
          caption : `\n *MASTER-MD SONG DOWNLOADER__🥷🏻🎼*
 
-*🔰.𝐓ʜᴇ 𝐑ᴇᴄᴇɪᴠɪɴɢ 𝐏ᴇʀꜱᴏɴ:* *${videos[0].pushname}*
+*🔰𝐔ꜱᴇʀ :* *${s.OWNER_NAME}*
 
 *🔰.𝐓ɪᴛʟᴇ :* *${videos[0].title}*
 
@@ -135,7 +135,7 @@ zokou({
         image: { url: videos[0].thumbnail },
         caption: `*MASTER-MD VIDEO DOWNLOADER__🥷🏻📽️*
 
-*🔰.𝐓ʜᴇ 𝐑ᴇᴄᴇɪᴠɪɴɢ 𝐏ᴇʀꜱᴏɴ:* *${s.PUSH_NAME}*
+*🔰𝐔ꜱᴇʀ :* *${s.OWNER_NAME}*
 
 *🔰.𝐓ɪᴛʟᴇ:* *${Element.title}*
 
