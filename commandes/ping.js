@@ -31,6 +31,6 @@ zokou({
         const { key } = await Void.sendMessage(citel.chat, {text: '```PING MASTER MD```'});
         var final = new Date().getTime();
        // await Secktor.sleep(1000)
-       return await Void.sendMessage(citel.chat, {text: '_DARK SHAN PONG_\n *' + (final - inital) + ' ms* ', edit: key});
+       return await Void.sendMessage(citel.chat, {text: '_MASTER-MD PONG_\n *' + (final - inital) + ' ms* ', edit: key});
     }
 );
