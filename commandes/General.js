@@ -73,7 +73,7 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "👨‍💻" }, as
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: " *✔️.Creater :Sahan Maduwantha* ", numero: "94789958225" },
+      { nom: " *✔️.Creater :Sahan Maduwantha* ", numero: "94720797915" },
       { nom: " *✔️.Co Leader : Hemal Veenath* ", numero: "94719552053" },
         { nom: " *✔️.Bug Test : Kanishka de Silva* ", numero: "94722477361" },
         { nom: " *✔️.Test : Cyber Buddy* ", numero: "94728103228" },
