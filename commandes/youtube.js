@@ -48,7 +48,7 @@ zokou({
           image: {url : videos[0]. thumbnail},
          caption : `\n *MASTER-MD SONG DOWNLOADER__🥷🏻🎼*
 
-*🔰.𝐓ʜᴇ 𝐑ᴇᴄᴇɪᴠɪɴɢ 𝐏ᴇʀꜱᴏɴ:* *${s.PUSH_NAME}*
+*🔰.𝐓ʜᴇ 𝐑ᴇᴄᴇɪᴠɪɴɢ 𝐏ᴇʀꜱᴏɴ:* *${videos[0].pushname}*
 
 *🔰.𝐓ɪᴛʟᴇ :* *${videos[0].title}*
 
