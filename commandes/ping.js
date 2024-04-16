@@ -18,9 +18,9 @@
 const { zokou } = require("../framework/zokou");
 const moment = require("moment-timezone");
 const { default: axios } = require('axios');
-//const conf = require('../set');
+const conf = require('../set');
 
-Secktor.cmd({
+zokou.cmd({
         pattern: "ping",
         desc: "To check ping",
         category: "general",
@@ -28,9 +28,9 @@ Secktor.cmd({
     },
     async(Void, citel) => {
         var inital = new Date().getTime();
-        const { key } = await Void.sendMessage(citel.chat, {text: '```Authorizing...```'});
+        const { key } = await Void.sendMessage(citel.chat, {text: '```PING MASTER MD```'});
         var final = new Date().getTime();
        // await Secktor.sleep(1000)
-       return await Void.sendMessage(citel.chat, {text: '*Lᴀᴛᴇɴᴄʏ*\n *' + (final - inital) + ' ms* ', edit: key});
+       return await Void.sendMessage(citel.chat, {text: '_DARK SHAN PONG_\n *' + (final - inital) + ' ms* ', edit: key});
     }
 );
