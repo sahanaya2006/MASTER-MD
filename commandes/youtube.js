@@ -48,21 +48,23 @@ zokou({
           image: {url : videos[0]. thumbnail},
          caption : `\n *MASTER-MD SONG DOWNLOADER__🥷🏻🎼*
 
-*🔰𝐓ɪᴛʟᴇ :* *${videos[0].title}*
+*🔰.𝐓ʜᴇ 𝐑ᴇᴄᴇɪᴠɪɴɢ 𝐏ᴇʀꜱᴏɴ:* *${s.PUSH_NAME}*
 
-*🔰𝐃ᴜʀᴀᴛɪᴏɴ:* *${videos[0].timestamp}*
+*🔰.𝐓ɪᴛʟᴇ :* *${videos[0].title}*
 
-*🔰𝐕ɪᴇᴡᴇʀꜱ:* *${videos[0].views}*
+*🔰.𝐃ᴜʀᴀᴛɪᴏɴ:* *${videos[0].timestamp}*
 
-*🔰𝐔ᴘʟᴏᴀᴅᴇᴅ:* *${videos[0].ago}*
+*🔰.𝐕ɪᴇᴡᴇʀꜱ:* *${videos[0].views}*
 
-*🔰𝐀ᴜᴛʜᴏʀ:* *${videos[0].author.name}*
+*🔰.𝐔ᴘʟᴏᴀᴅᴇᴅ:* *${videos[0].ago}*
 
-*🔰𝐔ʀʟ:* *${videos[0].url}*
+*🔰.𝐀ᴜᴛʜᴏʀ:* *${videos[0].author.name}*
+
+*🔰.𝐔ʀʟ:* *${videos[0].url}*
 
 ▬▬▬▬▬▬▬▬▬▬▬▬
 *𝚈𝚘𝚞𝚛 𝚂𝚘𝚗𝚐 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️*
-*𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝___⏳*
+*𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝 Sir___⏳*
 ▬▬▬▬▬▬▬▬▬▬▬▬
 *© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*`
        }
@@ -133,17 +135,19 @@ zokou({
         image: { url: videos[0].thumbnail },
         caption: `*MASTER-MD VIDEO DOWNLOADER__🥷🏻📽️*
 
-*🔰𝐓ɪᴛʟᴇ:* *${Element.title}*
+*🔰.𝐓ʜᴇ 𝐑ᴇᴄᴇɪᴠɪɴɢ 𝐏ᴇʀꜱᴏɴ:* *${s.PUSH_NAME}*
 
-*🔰𝐃ᴜʀᴀᴛɪᴏɴ:* *${Element.timestamp}*
+*🔰.𝐓ɪᴛʟᴇ:* *${Element.title}*
 
-*🔰𝐕ɪᴇᴡᴇʀꜱ:* *${Element.views}*
+*🔰.𝐃ᴜʀᴀᴛɪᴏɴ:* *${Element.timestamp}*
 
-*🔰𝐔ᴘʟᴏᴀᴅᴇᴅ:* *${Element.ago}*
+*🔰.𝐕ɪᴇᴡᴇʀꜱ:* *${Element.views}*
 
-*🔰𝐀ᴜᴛʜᴏʀ:* *${Element.author.name}*
+*🔰.𝐔ᴘʟᴏᴀᴅᴇᴅ:* *${Element.ago}*
 
-*🔰𝐔ʀʟ:* *${Element.url}*
+*🔰.𝐀ᴜᴛʜᴏʀ:* *${Element.author.name}*
+
+*🔰.𝐔ʀʟ:* *${Element.url}*
 
 ▬▬▬▬▬▬▬▬▬▬▬▬
 *𝚈𝚘𝚞𝚛 𝚟𝚒𝚍𝚎𝚘 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️*
