@@ -23,7 +23,7 @@ const conf = require('../set');
 zokou.cmd({
         pattern: "ping",
         desc: "To check ping",
-        category: "general",
+        category: "test",
         filename: __filename,
     },
     async(Void, citel) => {
