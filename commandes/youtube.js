@@ -48,33 +48,26 @@ zokou({
           image: {url : videos[0]. thumbnail},
          caption : `\n *MASTER-MD SONG DOWNLOADER__🥷🏻🎼*
 
-*🔰𝐓ɪᴛʟᴇ :* 
-*${videos[0].title}*
+*🔰𝐓ɪᴛʟᴇ :* *${videos[0].title}*
         
-*🔰𝐓ɪᴍᴇ :* 
-*${videos[0].timestamp}*
+*🔰𝐓ɪᴍᴇ :* *${videos[0].timestamp}*
 
-*🔰𝐃ᴜʀᴀᴛɪᴏɴ:* 
-*${videos[0].timestamp}*
+*🔰𝐃ᴜʀᴀᴛɪᴏɴ:* *${videos[0].timestamp}*
 
-*🔰𝐕ɪᴇᴡᴇʀꜱ:* 
-*${videos[0].views}*
+*🔰𝐕ɪᴇᴡᴇʀꜱ:* *${videos[0].views}*
 
-*🔰𝐔ᴘʟᴏᴀᴅᴇᴅ:* 
-*${videos[0].ago}*
+*🔰𝐔ᴘʟᴏᴀᴅᴇᴅ:* *${videos[0].ago}*
 
-*🔰𝐀ᴜᴛʜᴏʀ:* 
-*${videos[0].author.name}*
+*🔰𝐀ᴜᴛʜᴏʀ:* *${videos[0].author.name}*
 
-*🔰𝐔ʀʟ:* 
-*${videos[0].url}*
+*🔰𝐔ʀʟ:* *${videos[0].url}*
 
 ▬▬▬▬▬▬▬▬▬▬▬▬
-𝚈𝚘𝚞𝚛 𝚂𝚘𝚗𝚐 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️
-𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝___⏳
+*𝚈𝚘𝚞𝚛 𝚂𝚘𝚗𝚐 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️*
+*𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝___⏳*
 ▬▬▬▬▬▬▬▬▬▬▬▬
 *MASTER-MD SONG DOWNLOADER...👨‍💻*
-*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*\n\n`
+*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*`
        }
 
       
@@ -143,33 +136,26 @@ zokou({
         image: { url: videos[0].thumbnail },
         caption: `*MASTER-MD VIDEO DOWNLOADER__🥷🏻📽️*
 
-*🔰𝐓ɪᴛʟᴇ:*
-*${Element.title}*
+*🔰𝐓ɪᴛʟᴇ:* *${Element.title}*
         
-*🔰𝐓ɪᴍᴇ:*
-*${Element.timestamp}*
+*🔰𝐓ɪᴍᴇ:* *${Element.timestamp}*
 
-*🔰𝐃ᴜʀᴀᴛɪᴏɴ:*
-*${Element.timestamp}*
+*🔰𝐃ᴜʀᴀᴛɪᴏɴ:* *${Element.timestamp}*
 
-*🔰𝐕ɪᴇᴡᴇʀꜱ:* 
-*${Element.views}*
+*🔰𝐕ɪᴇᴡᴇʀꜱ:* *${Element.views}*
 
-*🔰𝐔ᴘʟᴏᴀᴅᴇᴅ:*
-*${Element.ago}*
+*🔰𝐔ᴘʟᴏᴀᴅᴇᴅ:* *${Element.ago}*
 
-*🔰𝐀ᴜᴛʜᴏʀ:*
-*${Element.author.name}*
+*🔰𝐀ᴜᴛʜᴏʀ:* *${Element.author.name}*
 
-*🔰𝐔ʀʟ:*
-*${Element.url}*
+*🔰𝐔ʀʟ:* *${Element.url}*
 
 ▬▬▬▬▬▬▬▬▬▬▬▬
 *𝚈𝚘𝚞𝚛 𝚟𝚒𝚍𝚎𝚘 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️*
 *𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝___⏳*
 ▬▬▬▬▬▬▬▬▬▬▬▬
 *MASTER-MD VIDEO DOWNLOADER...👨‍💻*
-*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*\n\n`
+*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
