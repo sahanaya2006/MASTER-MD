@@ -49,17 +49,17 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╒═══💀𝗠𝗔𝗦𝗧𝗘𝗥-𝗠𝗗💀═══════⫸
-│🥷🏻 *Prefix* : *${s.PREFIXE}*
-│🥷🏻 *User* : *${s.OWNER_NAME}*
-│🥷🏻 *Mode* : *${mode}*
-│🥷🏻 *Commands* : *${cm.length}*
-│🥷🏻 *Date* : *${date}*
-│🥷🏻 *Time* : *${temps}* 
-│🥷🏻 *Ram* : *${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}*
-│🥷🏻 *Platform* : *${os.platform()}*
-│🥷🏻 *Developer* : *Mr Sahan Ofc*
-│🥷🏻 *Version* : *V1.0*
-│🥷🏻 *Github* : *maduwa2006*
+│🥷🏻 *𝐏ʀᴇꜰɪx* : *${s.PREFIXE}*
+│🥷🏻 *𝐔ꜱᴇʀ* : *${s.OWNER_NAME}*
+│🥷🏻 *𝐌ᴏᴅᴇ* : *${mode}*
+│🥷🏻 *𝐂ᴏᴍᴍᴀɴᴅꜱ* : *${cm.length}*
+│🥷🏻 *𝐃ᴀᴛᴇ* : *${date}*
+│🥷🏻 *𝐓ɪᴍᴇ* : *${temps}* 
+│🥷🏻 *𝐑ᴀᴍ* : *${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}*
+│🥷🏻 *𝐏ʟᴀᴛꜰᴏʀᴍ* : *${os.platform()}*
+│🥷🏻 *𝐃ᴇᴠᴇʟᴏᴘᴇʀ* : *Mr Sahan Ofc*
+│🥷🏻 *𝐕ᴇʀꜱɪᴏɴ* : *V1.0*
+│🥷🏻 *𝐆ɪᴛʜᴜʙ* : *maduwa2006*
 ╘═══💀𝗠𝗔𝗦𝗧𝗘𝗥_𝗠𝗜𝗡𝗗💀═══⫸◆ \n\n`;
 
   let menuMsg=`  
@@ -72,7 +72,7 @@ const date = moment().format('DD/MM/YYYY');
         menuMsg += `╭────👨‍💻 *${cat}* 👨‍💻⊷`;
         for (const cmd of coms[cat]) {
             menuMsg += `
- *💀* *${cmd}*`;
+ *│💀* *${cmd}*`;
         }
         menuMsg += `
 ╰═════════════⊷ \n`
