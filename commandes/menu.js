@@ -51,7 +51,7 @@ const date = moment().format('DD/MM/YYYY');
 ╒═══💀𝗠𝗔𝗦𝗧𝗘𝗥-𝗠𝗗💀═══════⫸
 │🥷🏻 *Prefix* : *${s.PREFIXE}*
 │🥷🏻 *User* : *${s.OWNER_NAME}*
-│🥷🏻 *Mode* : $*{mode}*
+│🥷🏻 *Mode* : *${mode}*
 │🥷🏻 *Commands* : *${cm.length}*
 │🥷🏻 *Date* : *${date}*
 │🥷🏻 *Time* : *${temps}* 
@@ -72,7 +72,7 @@ const date = moment().format('DD/MM/YYYY');
         menuMsg += `╭────👨‍💻 *${cat}* 👨‍💻⊷`;
         for (const cmd of coms[cat]) {
             menuMsg += `
- *💀* ${cmd}`;
+ *💀* *${cmd}*`;
         }
         menuMsg += `
 ╰═════════════⊷ \n`
