@@ -48,8 +48,6 @@ zokou({
           image: {url : videos[0]. thumbnail},
          caption : `\n *MASTER-MD SONG DOWNLOADER__🥷🏻🎼*
 
-*🔰𝐔ꜱᴇʀ :* *${s.OWNER_NAME}*
-
 *🔰.𝐓ɪᴛʟᴇ :* *${videos[0].title}*
 
 *🔰.𝐃ᴜʀᴀᴛɪᴏɴ:* *${videos[0].timestamp}*
@@ -134,8 +132,6 @@ zokou({
       let InfoMess = {
         image: { url: videos[0].thumbnail },
         caption: `*MASTER-MD VIDEO DOWNLOADER__🥷🏻📽️*
-
-*🔰𝐔ꜱᴇʀ :* *${s.OWNER_NAME}*
 
 *🔰.𝐓ɪᴛʟᴇ:* *${Element.title}*
 
