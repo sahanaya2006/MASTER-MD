@@ -127,11 +127,9 @@ zokou({
 
       let InfoMess = {
         image: { url: videos[0].thumbnail },
-        caption: `*Video name :* _${Element.title}_
+        caption: `*Title :* _${Element.title}_
         
 *Time :* _${Element.timestamp}_
-
-*Title:* ${Element.title}
 
 *Duration:* ${Element.timestamp}
 
