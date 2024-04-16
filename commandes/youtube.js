@@ -49,8 +49,6 @@ zokou({
          caption : `\n *MASTER-MD SONG DOWNLOADER__🥷🏻🎼*
 
 *🔰𝐓ɪᴛʟᴇ :* *${videos[0].title}*
-        
-*🔰𝐓ɪᴍᴇ :* *${videos[0].timestamp}*
 
 *🔰𝐃ᴜʀᴀᴛɪᴏɴ:* *${videos[0].timestamp}*
 
@@ -136,8 +134,6 @@ zokou({
         caption: `*MASTER-MD VIDEO DOWNLOADER__🥷🏻📽️*
 
 *🔰𝐓ɪᴛʟᴇ:* *${Element.title}*
-        
-*🔰𝐓ɪᴍᴇ:* *${Element.timestamp}*
 
 *🔰𝐃ᴜʀᴀᴛɪᴏɴ:* *${Element.timestamp}*
 
