@@ -66,7 +66,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.hd  }, caption: '*Facebook Video Downloader Created By Mr Sahan Ofc*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: '*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -130,7 +130,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.sd  }, caption: '*Facebook Video Dowloader Created By Mr Sahan Ofc*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.sd  }, caption: '*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
