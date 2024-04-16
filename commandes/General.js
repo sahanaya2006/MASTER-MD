@@ -114,7 +114,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("💀 *MASTER-MD Developer @Sahan's Number* 💀 \n *+94720797915* ")
+  repondre("*MASTER-MD Developer @Sahan's Number*")
   await zk.sendMessage(auteurMessage,{text : `https://wa.me/94720797915?text=Hey_MASTER-MD_Owner_👨‍💻✅`},{quoted :ms})
 
 });
