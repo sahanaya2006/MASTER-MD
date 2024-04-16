@@ -20,7 +20,7 @@ const moment = require("moment-timezone");
 const { default: axios } = require('axios');
 const conf = require('../set');
 
-zokou.cmd({
+zokou({
         pattern: "ping",
         desc: "To check ping",
         category: "test",
