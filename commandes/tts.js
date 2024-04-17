@@ -20,7 +20,7 @@ const {zokou} = require("../framework/zokou");
 
 
 zokou( {
-  nomCom : "dit",
+  nomCom : "translate",
  categorie : "tts",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
