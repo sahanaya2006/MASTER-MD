@@ -43,7 +43,7 @@ zokou(
                   [text.split('=')[0]]: text.split('=')[1],
           },
         });
-        await repondre('That Heroku var is changing,The bot is rebooting....')
+        await repondre('*That Heroku var is changing,THE MASTER-MD IS REBOOTING....*')
     }
 );
 
