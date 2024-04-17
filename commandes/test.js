@@ -20,7 +20,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "repo", reaction: "✅", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = '𝗙𝗢𝗥𝗞 𝗔𝗡𝗗 𝗗𝗘𝗣𝗟𝗢𝗬 𝗠𝗬 𝗠𝗔𝗦𝗧𝗘𝗥-𝗠𝗗 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧  \n\n ' + "𝗚𝗜𝗧𝗛𝗨𝗕 𝗟𝗜𝗡𝗞*";
+    let z = '𝗙𝗢𝗥𝗞 𝗔𝗡𝗗 𝗗𝗘𝗣𝗟𝗢𝗬 𝗠𝗬 𝗠𝗔𝗦𝗧𝗘𝗥-𝗠𝗗 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧  \n\n ' + "𝗚𝗜𝗧𝗛𝗨𝗕 𝗟𝗜𝗡𝗞";
     let d = ' https://github.com/maduwa2006/MASTER-MD/tree/main';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/3b5e3a9b55b5ec0df4bf8.jpg';
