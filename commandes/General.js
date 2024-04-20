@@ -77,6 +77,7 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "👨‍💻" }, as
       { nom: " *✔️.Co Leader : Hemal Veenath* ", numero: "94719552053" },
         { nom: " *✔️.Bug Test : Kanishka de Silva* ", numero: "94722477361" },
         { nom: " *✔️.Test : Cyber Buddy* ", numero: "94728103228" },
+         { nom: " *✔️.Designer : Ishan* ", numero: "94774721911" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
@@ -151,5 +152,12 @@ zokou({ nomCom: "ping" }, async (dest, zk, commandeOptions) => {
  
   repondre("*MASTER-MD PING* \n *72 MS*")
   await zk.sendMessage(auteurMessage,{text : `*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*`},{quoted :ms})
+});
+zokou({ nomCom: "ishan", categorie: "Developer" }, async (dest, zk, commandeOptions) => {
+  const { ms, repondre, auteurMessage, } = commandeOptions; 
+ 
+  repondre("💀 *MASTER-MD Designer is Mr Ishan  💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀From Sri Lanka💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n *💀 17 Years Old💀* \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  *© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ* ")
+  await zk.sendMessage(auteurMessage,{text : `*Tester Link https://wa.me/+94774721911?text=Hey_Designer_👨‍💻✅*`},{quoted :ms})
+    
 })
 
