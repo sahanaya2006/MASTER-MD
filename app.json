@@ -99,79 +99,8 @@
     "description":"📌 ALWAYS ONLINE 1 /📌 TYPING 2 /📌 RECORDING AUDIO.... 3🌟 ඔයාට ඔන අංකය type කරන්න 🌟",
     "value":"",
     "required": false
-  } 
-"CAPTION": {
-            "description": "Put Your Caption.",
-            "value": "_*🪄 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐎𝐮𝐫 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🪄*_ \nhttps://youtube.com/@sahanmaduwantha2006",
-            "required": false 	  
-}
-	  "OPENAI_API_KEY": {
-            "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
-            "value": "Replace Me(optional)",
-            "required" :false
-        },
-        "MONGODB_URI": {
-            "description": "A secret String for Mongodb Connection.(Replace for better experience)",
-            "value": "mongodb+srv://darkdragonv4:ameesha@cluster0.ttcxkqt.mongodb.net",
-            "required" :false
-        },
-        "THEME": {
-            "description": "Put the theme name you want to use. Avilable themes are SI , EN",
-            "value": "SI"
-        },
-	    "AUTO_BIO": {
-            "description": "Automatically change bot bio",
-            "value": "false",
-            "required" :false
-        },
-        "ALWAYS_ONLINE": {
-            "description": "always show bot online.",
-            "value": "true",
-            "required" :false
-        },
-        "ALIVE_IMAGE": {
-            "description": "THUMBNAIL for bot.",
-            "value": "https://i.ibb.co/NF7FbF2/20230604-132133.png"
-        },
-        "ANTI_BAD_WORD": {
-            "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-            "required" :false
-        },
-        "ANTI_BOT": {
-            "description": "Remove Unknown Bots",
-            "value": "true",
-            "required" :false
-        },
-        "ANTILINK_VALUES": {
-            "description": "Put words for antilink",
-            "value": "chat.whatsapp.com,fb.com,instagram.com",
-            "required" :false
-        },
-        "ANTILINK_ACTION": {
-            "description": "Put action for antilink",
-            "value": "remove",
-            "required" :false
-        },
-        "READ_MESSAGE": {
-            "description": "Fill the value true if you want bot to read all messages.",
-            "required" :false,
-            "value": "true"
-        },
-        "DISABLE_PM": {
-            "description": "Disable bot in pm",
-            "value": "false",
-            "required" :false
-        },
-        "PM_BLOCKER": {
-            "description": "block bot pm massage",
-            "value": "false",
-            "required" :false
-        },
-        "DL_SIZE": {
-            "description": "Maximum Download Size For Bot in MB  -  Ex:- 400",
-            "value": "400",
-            "required" :false
-        },
+  }  
+	  ""
   },
  
   "formation": {
