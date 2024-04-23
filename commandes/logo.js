@@ -661,7 +661,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
     });
 });
 
-zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "hellfire", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Example of using command:\n ${prefixe}leaves My text`);
@@ -669,7 +669,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
   }
 
   const text = arg.join(" ");
-  mumaker.textpro("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx", text)
+  mumaker.textpro("https://textpro.me/create-a-free-online-hellfire-text-effect-1152.html", text)
     .then((data) => {
       zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
     })
@@ -678,7 +678,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
     });
 });
 
-zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "realistic", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Example of using command:\n ${prefixe}leaves My text`);
@@ -686,7 +686,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
   }
 
   const text = arg.join(" ");
-  mumaker.textpro("xxxxxxxxxxxxxxxxxxxxx", text)
+  mumaker.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb-1000.html", text)
     .then((data) => {
       zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
     })
@@ -695,7 +695,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
     });
 });
 
-zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "retro", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Example of using command:\n ${prefixe}leaves My text`);
@@ -703,7 +703,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
   }
 
   const text = arg.join(" ");
-  mumaker.textpro("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", text)
+  mumaker.textpro("https://textpro.me/80-s-retro-neon-text-effect-online-979.html", text)
     .then((data) => {
       zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
     })
@@ -712,7 +712,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
     });
 });
 
-zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "firework", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Example of using command:\n ${prefixe}leaves My text`);
@@ -720,7 +720,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
   }
 
   const text = arg.join(" ");
-  mumaker.textpro("xxx", text)
+  mumaker.textpro("https://textpro.me/firework-sparkle-text-effect-930.html", text)
     .then((data) => {
       zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
     })
@@ -728,7 +728,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
       console.error("Une erreur s'est produite :", err);
     });
 });
-zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "greenneon", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Example of using command:\n ${prefixe}leaves My text`);
@@ -736,7 +736,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
   }
 
   const text = arg.join(" ");
-  mumaker.textpro("xxxxxx", text)
+  mumaker.textpro("https://textpro.me/green-neon-text-effect-874.html", text)
     .then((data) => {
       zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
     })
