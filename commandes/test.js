@@ -15,30 +15,4 @@
 //                                                                                                                    //
 //                                                                                                                    //
 //════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "repo", reaction: "✅", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-    console.log("Commande saisie !!!s");
-    let z = '𝗙𝗢𝗥𝗞 𝗔𝗡𝗗 𝗗𝗘𝗣𝗟𝗢𝗬 𝗠𝗬 𝗠𝗔𝗦𝗧𝗘𝗥-𝗠𝗗 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧  \n\n ' + "𝗚𝗜𝗧𝗛𝗨𝗕 𝗟𝗜𝗡𝗞";
-    let d = ' https://github.com/maduwa2006/MASTER-MD/tree/main';
-    let varmess = z + d;
-    var img = 'https://telegra.ph/file/3b5e3a9b55b5ec0df4bf8.jpg';
-    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
-    //console.log("montest")
-});
-console.log("mon test");
-/*module.exports.commande = () => {
-  var nomCom = ["test","t"]
-  var reaction="☺️"
-  return { nomCom, execute,reaction }
-};
-
-async function  execute  (origineMessage,zok) {
-  console.log("Commande saisie !!!s")
-   let z ='Salut je m\'appelle *MASTER-MD* \n\n '+'je suis un bot Whatsapp Multi-appareil '
-      let d =' developpé par *Sahan Maduwantha*'
-      let varmess=z+d
-      var img='https://telegra.ph/file/13d63c21c1a665bfd8324.jpg'
-await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
-}  */ 
+'use strict';function _0x12d1(){const _0x52ec14=['mon\x20test','legra.ph/f','EJJEr','maduwa2006','948969wFOglH','Commande\x20s','3511520pywCwU','18SAhVsG','5CBqHBq','1671313QWDzYT','ithub.com/','repo','20guzJup','eXOEs','rk/zokou','erty','https://te','hjXTk','rCyrQ','20811TdsAVA','𝗚𝗜𝗧𝗛𝗨𝗕\x20𝗟𝗜𝗡','22XJGePp','𝗦𝗘𝗥\x20𝗕𝗢𝗧\x20\x20\x0a','XwCCz','/MASTER-MD','1323204SgJesS','1195899ZmgQlA','defineProp','6HDoMmf','𝗙𝗢𝗥𝗞\x20𝗔𝗡𝗗\x20𝗗','log','𝗘𝗣𝗟𝗢𝗬\x20𝗠𝗬\x20𝗠','ile/3b5e3a','9b55b5ec0d','aisie\x20!!!s','../framewo','/tree/main','\x20https://g','__esModule','𝗔𝗦𝗧𝗘𝗥-𝗠𝗗\x20𝗨','f4bf8.jpg','1768732MqpjGx','sendMessag','gfVfC'];_0x12d1=function(){return _0x52ec14;};return _0x12d1();}const _0x2f902f=_0x3076;(function(_0x454f52,_0x17596c){const _0x44d0c8=_0x3076,_0x22ece4=_0x454f52();while(!![]){try{const _0x5047b5=-parseInt(_0x44d0c8(0xf3))/(0x1*-0x247d+-0x78b+0x2c09*0x1)*(-parseInt(_0x44d0c8(0xd0))/(0xfe*-0x1e+-0x930+0x26f6))+-parseInt(_0x44d0c8(0xce))/(0xca1*0x3+-0x1*0xc6d+0x517*-0x5)+parseInt(_0x44d0c8(0xdd))/(0x1*0x4c3+-0x195b*-0x1+0xf0d*-0x2)*(-parseInt(_0x44d0c8(0xe8))/(0x52b+-0x419+-0x10d))+parseInt(_0x44d0c8(0xe7))/(0x760+-0x10f1+0x997)*(parseInt(_0x44d0c8(0xe9))/(0x15d+0x10be+-0x1214))+parseInt(_0x44d0c8(0xe6))/(-0x72d+0x22d7+-0x1ba2)+parseInt(_0x44d0c8(0xe4))/(-0x50*0x5c+-0x1*-0x126a+0x213*0x5)*(parseInt(_0x44d0c8(0xec))/(-0x119*-0x1d+-0x2ab+0x1d20*-0x1))+parseInt(_0x44d0c8(0xf5))/(-0x72*0x51+0x1*-0x20cc+0x44e9)*(-parseInt(_0x44d0c8(0xcd))/(0x81b*0x1+-0x2220+0x1*0x1a11));if(_0x5047b5===_0x17596c)break;else _0x22ece4['push'](_0x22ece4['shift']());}catch(_0x316e24){_0x22ece4['push'](_0x22ece4['shift']());}}}(_0x12d1,-0x598f*0x17+0xc6*-0x84e+0x14127b));function _0x3076(_0x293413,_0x52c538){const _0xda9cb9=_0x12d1();return _0x3076=function(_0x273e6d,_0x47bdf8){_0x273e6d=_0x273e6d-(-0x669+-0x101*-0x1+-0x1*-0x635);let _0x365abf=_0xda9cb9[_0x273e6d];return _0x365abf;},_0x3076(_0x293413,_0x52c538);}Object[_0x2f902f(0xcf)+_0x2f902f(0xef)](exports,_0x2f902f(0xda),{'value':!![]});const {zokou}=require(_0x2f902f(0xd7)+_0x2f902f(0xee));zokou({'nomCom':_0x2f902f(0xeb),'reaction':'✅','nomFichier':__filename},async(_0x3c1acd,_0x3caa02,_0x205639)=>{const _0x494f2a=_0x2f902f,_0x3e2355={'rCyrQ':_0x494f2a(0xe5)+_0x494f2a(0xd6),'eXOEs':function(_0x4f9d17,_0x1abfd1){return _0x4f9d17+_0x1abfd1;},'EJJEr':_0x494f2a(0xd1)+_0x494f2a(0xd3)+_0x494f2a(0xdb)+_0x494f2a(0xf6)+'\x0a\x20','XwCCz':_0x494f2a(0xf4)+'𝗞','hjXTk':_0x494f2a(0xd9)+_0x494f2a(0xea)+_0x494f2a(0xe3)+_0x494f2a(0xf8)+_0x494f2a(0xd8),'gfVfC':_0x494f2a(0xf0)+_0x494f2a(0xe1)+_0x494f2a(0xd4)+_0x494f2a(0xd5)+_0x494f2a(0xdc)};console[_0x494f2a(0xd2)](_0x3e2355[_0x494f2a(0xf2)]);let _0x10f39b=_0x3e2355[_0x494f2a(0xed)](_0x3e2355[_0x494f2a(0xe2)],_0x3e2355[_0x494f2a(0xf7)]),_0x2f3ada=_0x3e2355[_0x494f2a(0xf1)],_0x1734f6=_0x3e2355[_0x494f2a(0xed)](_0x10f39b,_0x2f3ada);var _0x129085=_0x3e2355[_0x494f2a(0xdf)];await _0x3caa02[_0x494f2a(0xde)+'e'](_0x3c1acd,{'image':{'url':_0x129085},'caption':_0x1734f6});}),console[_0x2f902f(0xd2)](_0x2f902f(0xe0));
