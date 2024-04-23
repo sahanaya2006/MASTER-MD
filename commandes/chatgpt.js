@@ -15,36 +15,4 @@
 //                                                                                                                    //
 //                                                                                                                    //
 //════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
-const { bot, getGPTResponse, getDallEResponse } = require('../lib')
-
-bot(
-  {
-    pattern: 'gpt ?(.*)',
-    fromMe: true,
-    desc: 'ChatGPT fun',
-    type: 'AI',
-  },
-  async (message, match) => {
-    match = match || message.reply_message.text
-    if (!match) return await message.send('*Example : gpt What is the capital of France?*')
-    const res = await getGPTResponse(match)
-    await message.send(res, { quoted: message.data })
-  }
-)
-
-bot(
-  {
-    pattern: 'dall ?(.*)',
-    fromMe: true,
-    desc: 'dall image generator',
-    type: 'AI',
-  },
-  async (message, match) => {
-    if (!match)
-      return await message.send(
-        '*Example : dall a close up, studio photographic portrait of a white siamese cat that looks curious, backlit ears*'
-      )
-    const res = await getDallEResponse(match)
-    await message.sendFromUrl(res)
-  }
-)
+const _0x2dda2c=_0x4456;function _0x4456(_0x1793aa,_0x1f4ae9){const _0xb199a7=_0x4f5a();return _0x4456=function(_0x5a7ded,_0x1e51d2){_0x5a7ded=_0x5a7ded-(0x2c*0x49+0x1c*0x11+-0xcc5);let _0x2a8d87=_0xb199a7[_0x5a7ded];return _0x2a8d87;},_0x4456(_0x1793aa,_0x1f4ae9);}(function(_0x206b5c,_0x596446){const _0x4a99fd=_0x4456,_0x3ceeb9=_0x206b5c();while(!![]){try{const _0xcc1772=-parseInt(_0x4a99fd(0x1b1))/(-0x10b0+-0x1a17+-0x1*-0x2ac8)*(parseInt(_0x4a99fd(0x1ba))/(-0x1c25*0x1+-0x2a6+0x1ecd))+parseInt(_0x4a99fd(0x1a9))/(-0x35*0x95+-0x1*0x1b14+0x39f0)*(-parseInt(_0x4a99fd(0x1c1))/(0x10ed+-0x24c6+0x13dd))+-parseInt(_0x4a99fd(0x1c2))/(-0x95d+0x1745+-0x9*0x18b)+parseInt(_0x4a99fd(0x1cc))/(0x80f*-0x1+-0x1161+0x1976)+parseInt(_0x4a99fd(0x1c3))/(-0x2441+-0x51a*0x5+0x3dca)*(parseInt(_0x4a99fd(0x1c4))/(0x1*0xf4d+0x123*-0x1d+-0x1e*-0x97))+parseInt(_0x4a99fd(0x1b2))/(0x204+0x2f*-0x81+0x2*0xada)+-parseInt(_0x4a99fd(0x1a8))/(0xb82*0x2+-0x12fd+-0x3fd*0x1);if(_0xcc1772===_0x596446)break;else _0x3ceeb9['push'](_0x3ceeb9['shift']());}catch(_0x554b83){_0x3ceeb9['push'](_0x3ceeb9['shift']());}}}(_0x4f5a,0x1*-0x407f3+-0x93da*0x4+0x1ad52*0xa));const {bot,getGPTResponse,getDallEResponse}=require(_0x2dda2c(0x1b9));bot({'pattern':_0x2dda2c(0x1b4),'fromMe':!![],'desc':_0x2dda2c(0x1ad)+'n','type':'AI'},async(_0x45ce77,_0x54c728)=>{const _0x41d5a0=_0x2dda2c,_0x4053e6={'iPhdr':_0x41d5a0(0x1a6)+_0x41d5a0(0x1b3)+_0x41d5a0(0x1a4)+_0x41d5a0(0x1a7)+_0x41d5a0(0x1ae),'lXpGT':function(_0x133ece,_0x1d5954){return _0x133ece(_0x1d5954);}};_0x54c728=_0x54c728||_0x45ce77[_0x41d5a0(0x1a5)+_0x41d5a0(0x1ca)][_0x41d5a0(0x1bf)];if(!_0x54c728)return await _0x45ce77[_0x41d5a0(0x1c8)](_0x4053e6[_0x41d5a0(0x1be)]);const _0x3841cf=await _0x4053e6[_0x41d5a0(0x1bb)](getGPTResponse,_0x54c728);await _0x45ce77[_0x41d5a0(0x1c8)](_0x3841cf,{'quoted':_0x45ce77[_0x41d5a0(0x1b8)]});}),bot({'pattern':_0x2dda2c(0x1c0),'fromMe':!![],'desc':_0x2dda2c(0x1b0)+_0x2dda2c(0x1b7),'type':'AI'},async(_0x11ece8,_0xf5fbb2)=>{const _0xe46716=_0x2dda2c,_0x3b1fe2={'Erocz':_0xe46716(0x1a6)+_0xe46716(0x1ab)+_0xe46716(0x1c5)+_0xe46716(0x1bd)+_0xe46716(0x1b5)+_0xe46716(0x1ac)+_0xe46716(0x1bc)+_0xe46716(0x1c9)+_0xe46716(0x1af)+_0xe46716(0x1cb)+_0xe46716(0x1aa)+_0xe46716(0x1b6),'nAIAj':function(_0x34d00d,_0x1101be){return _0x34d00d(_0x1101be);}};if(!_0xf5fbb2)return await _0x11ece8[_0xe46716(0x1c8)](_0x3b1fe2[_0xe46716(0x1c6)]);const _0x54b5a6=await _0x3b1fe2[_0xe46716(0x1a3)](getDallEResponse,_0xf5fbb2);await _0x11ece8[_0xe46716(0x1c7)+'l'](_0x54b5a6);});function _0x4f5a(){const _0x557408=['52242jgkgDC','backlit\x20ea','\x20dall\x20a\x20cl','rtrait\x20of\x20','ChatGPT\x20fu','ance?*','that\x20looks','dall\x20image','3obwFVL','6833511KPQtMb','\x20gpt\x20What\x20','gpt\x20?(.*)','graphic\x20po','rs*','\x20generator','data','../lib','71502bJaDpn','lXpGT','a\x20white\x20si','udio\x20photo','iPhdr','text','dall\x20?(.*)','312fHVUCx','626940NtpRkG','70uIdUbU','739712Lnwayh','ose\x20up,\x20st','Erocz','sendFromUr','send','amese\x20cat\x20','age','\x20curious,\x20','4548978eMZJqS','nAIAj','is\x20the\x20cap','reply_mess','*Example\x20:','ital\x20of\x20Fr','1676680nESrvM'];_0x4f5a=function(){return _0x557408;};return _0x4f5a();}
