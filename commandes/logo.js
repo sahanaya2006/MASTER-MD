@@ -1,3 +1,22 @@
+//════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
+//                                                                                                                    //
+//                                             W H A T S A P P _ U S E R _ BOT                                        //
+//                                                                                                                    //
+//                                                     V E R S I O N：１.0                                             //
+//                                                                                                                    //
+//            ███╗░░░███╗░░█████╗░░███████╗░█████████░░███████╗░████████╗░░░░░░░░░░░░███╗░░░███╗░░██████╗░░░░░        //   
+//            ████╗░████║░██╔══██╗░██╔════╝░╚══██║═══╝░██║════╝░██╔═══██╗░░░░░░░░░░░░████╗ ████║░░██╔══██╗░░░░        //
+//            ██╔████╔██║░███████║░███████╗░░░░██║░░░░░███████║░███████╔╝░░███████░░░██╔████╔██║░░██║░░██║░░░░        // 
+//            ██║░██║╚██║░██╔══██║░╚════██║░░░░██║░░░░░██║════╝░██╔═══██╗░░╚══════╝░░██║░██░░██║░░██║░░██║░░░░        //
+//            ██║░╚═╝░██║░██║░░██║░███████║░░░░██║░░░░░███████║░██║░░░░██░░░░░░░░░░░░██║░╚═╝░██║░░██████╔╝░░░░        //
+//            ╚═╝░░░░░╚═╝░╚═╝░░╚═╝░╚══════╝░░░░╚═╝░░░░░╚══════╝░╚═╝░░░░╚═╝░░░░░░░░░░░╚═╝░░░░░╚═╝░░╚═════╝░░░░░        //
+//                                                                                                                    //
+//                                 C R E A T E D _ B Y _ M R _ S A H A N _ O F C _ S L _ R G                          //  
+//                                                                                                                    //
+//                                                                                                                    //
+//════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
+
+
 const { zokou } = require("../framework/zokou");
 var mumaker = require("mumaker");
 zokou({ nomCom: "hacker",
@@ -634,6 +653,202 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
 
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/natural-leaves-text-effect-931.html", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+
+zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+
+zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("xxxxxxxxxxxxxxxxxxxxx", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+
+zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+
+zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("xxx", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("xxxxxx", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+zokou({ nomCom: "glitch", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("https://textpro.me/create-a-glitch-text-effect-online-free-1026.html", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+zokou({ nomCom: "futuristic", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+zokou({ nomCom: "burn", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("https://textpro.me/online-real-burning-text-effect-generator-1151.html", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+zokou({ nomCom: "3dneon", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("https://textpro.me/create-a-glowing-3d-neon-light-text-effect-1142.html", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+zokou({ nomCom: "neon2", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("https://textpro.me/neon-light-text-effect-online-882.html", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+zokou({ nomCom: "pornhub", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("https://textpro.me/generate-a-free-logo-in-pornhub-style-online-977.html", text)
+    .then((data) => {
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
+    })
+    .catch((err) => {
+      console.error("Une erreur s'est produite :", err);
+    });
+});
+zokou({ nomCom: "matrix", categorie: "Logo", reaction: "☘️" }, async (dest, zk, commandeOptions) => {
+  const { arg, ms, prefixe,repondre } = commandeOptions;
+  if (!arg[0]) {
+    repondre(`Example of using command:\n ${prefixe}leaves My text`);
+    return;
+  }
+
+  const text = arg.join(" ");
+  mumaker.textpro("https://textpro.me/matrix-style-text-effect-online-884.html", text)
     .then((data) => {
       zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *MASTER-MD*' }, { quoted: ms });
     })
