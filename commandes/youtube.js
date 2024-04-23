@@ -15,173 +15,997 @@
 //                                                                                                                    //
 //                                                                                                                    //
 //════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
-const { zokou } = require("../framework/zokou");
-const yts = require('yt-search');
-const ytdl = require('ytdl-core');
-const fs = require('fs');
-const yt=require("../framework/dl/ytdl-core.js")
-const ffmpeg = require("fluent-ffmpeg");
-const yts1 = require("youtube-yts");
-//var fs =require("fs-extra")
 
-zokou({
-  nomCom: "song",
-  categorie: "Download",
-  reaction: "🎵"
-}, async (origineMessage, zk, commandeOptions) => {
-  const { ms, repondre, arg } = commandeOptions;
-     
-  if (!arg[0]) {
-    repondre("wich song do you want.");
-    return;
-  }
 
-  try {
-    let topo = arg.join(" ")
-    const search = await yts(topo);
-    const videos = search.videos;
 
-    if (videos && videos.length > 0 && videos[0]) {
-      const urlElement = videos[0].url;
-          
-       let infoMess = {
-          image: {url : videos[0]. thumbnail},
-         caption : `\n *MASTER-MD SONG DOWNLOADER__🥷🏻🎼*
 
-*🔰.𝐓ɪᴛʟᴇ :* *${videos[0].title}*
 
-*🔰.𝐃ᴜʀᴀᴛɪᴏɴ:* *${videos[0].timestamp}*
 
-*🔰.𝐕ɪᴇᴡᴇʀꜱ:* *${videos[0].views}*
 
-*🔰.𝐔ᴘʟᴏᴀᴅᴇᴅ:* *${videos[0].ago}*
 
-*🔰.𝐀ᴜᴛʜᴏʀ:* *${videos[0].author.name}*
 
-*🔰.𝐔ʀʟ:* *${videos[0].url}*
 
-▬▬▬▬▬▬▬▬▬▬▬▬
-*𝚈𝚘𝚞𝚛 𝚂𝚘𝚗𝚐 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️*
-*𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝 Sir___⏳*
-▬▬▬▬▬▬▬▬▬▬▬▬
-*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*`
-       }
 
-      
 
-      
 
-      
-       zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
-      // Obtenir le flux audio de la vidéo
-      const audioStream = ytdl(urlElement, { filter: 'audioonly', quality: 'highestaudio' });
 
-      // Nom du fichier local pour sauvegarder le fichier audio
-      const filename = 'audio.mp3';
 
-      // Écrire le flux audio dans un fichier local
-      const fileStream = fs.createWriteStream(filename);
-      audioStream.pipe(fileStream);
 
-      fileStream.on('finish', () => {
-        // Envoi du fichier audio en utilisant l'URL du fichier local
-      
 
-     zk.sendMessage(origineMessage, { audio: { url:"audio.mp3"},mimetype:'audio/mp4' }, { quoted: ms,ptt: false });
-        console.log("Envoi du fichier audio terminé !");
 
-     
-      });
 
-      fileStream.on('error', (error) => {
-        console.error('Erreur lors de l\'écriture du fichier audio :', error);
-        repondre('Une erreur est survenue lors de l\'écriture du fichier audio.');
-      });
-    } else {
-      repondre('Aucune vidéo trouvée.');
-    }
-  } catch (error) {
-    console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.');
-  }
-});
 
-  
 
-zokou({
-  nomCom: "video",
-  categorie: "Download",
-  reaction: "🎥"
-}, async (origineMessage, zk, commandeOptions) => {
-  const { arg, ms, repondre } = commandeOptions;
 
-  if (!arg[0]) {
-    repondre("insert video name");
-    return;
-  }
 
-  const topo = arg.join(" ");
-  try {
-    const search = await yts(topo);
-    const videos = search.videos;
 
-    if (videos && videos.length > 0 && videos[0]) {
-      const Element = videos[0];
 
-      let InfoMess = {
-        image: { url: videos[0].thumbnail },
-        caption: `*MASTER-MD VIDEO DOWNLOADER__🥷🏻📽️*
 
-*🔰.𝐓ɪᴛʟᴇ:* *${Element.title}*
 
-*🔰.𝐃ᴜʀᴀᴛɪᴏɴ:* *${Element.timestamp}*
 
-*🔰.𝐕ɪᴇᴡᴇʀꜱ:* *${Element.views}*
 
-*🔰.𝐔ᴘʟᴏᴀᴅᴇᴅ:* *${Element.ago}*
 
-*🔰.𝐀ᴜᴛʜᴏʀ:* *${Element.author.name}*
 
-*🔰.𝐔ʀʟ:* *${Element.url}*
 
-▬▬▬▬▬▬▬▬▬▬▬▬
-*𝚈𝚘𝚞𝚛 𝚟𝚒𝚍𝚎𝚘 𝚒𝚜 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐⬇️*
-*𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝___⏳*
-▬▬▬▬▬▬▬▬▬▬▬▬
-*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*`
-      };
 
-      zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
 
-      // Obtenir les informations de la vidéo à partir du lien YouTube
-      const videoInfo = await ytdl.getInfo(Element.url);
-      // Format vidéo avec la meilleure qualité disponible
-      const format = ytdl.chooseFormat(videoInfo.formats, { quality: '18' });
-      // Télécharger la vidéo
-      const videoStream = ytdl.downloadFromInfo(videoInfo, { format });
 
-      // Nom du fichier local pour sauvegarder la vidéo
-      const filename = 'video.mp4';
 
-      // Écrire le flux vidéo dans un fichier local
-      const fileStream = fs.createWriteStream(filename);
-      videoStream.pipe(fileStream);
 
-      fileStream.on('finish', () => {
-        // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*© 𝐂ʀᴇᴀᴛᴇᴅ 𝐁ʏ 𝐌ʀ 𝐒ᴀʜᴀɴ 𝐎ꜰᴄ*", gifPlayback: false }, { quoted: ms });
-      });
 
-      fileStream.on('error', (error) => {
-        console.error('Erreur lors de l\'écriture du fichier vidéo :', error);
-        repondre('Une erreur est survenue lors de l\'écriture du fichier vidéo.');
-      });
-    } else {
-      repondre('No video found');
-    }
-  } catch (error) {
-    console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.');
-  }
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function _0x496d(){const _0x5646fc=['omInfo','yMEqa','kWGgU','Aucune\x20vid','ement\x20de\x20l','⏳*\x0a▬▬▬▬▬▬▬','6962632xhswff','𝐁ʏ\x20𝐌ʀ\x20𝐒ᴀʜᴀ','ᴏʀ:*\x20*','ichier\x20vid','▬▬▬▬▬▬▬▬\x0a*','nhXjb','ᴛʟᴇ\x20:*\x20*','4149LuemPj','\x20est\x20surve','song','ago','*\x0a\x0a*🔰.𝐔ʀʟ:','éo\x20trouvée','e\x20la\x20vidéo','No\x20video\x20f','zVExo','MD\x20SONG\x20DO','e\x20l\x27écritu','video.mp4','▬▬▬▬▬\x0a*𝚈𝚘𝚞','yuqHj','views','audio/mp4','zuJqJ','e\x20la\x20reche','51061518zWGOyv','rche\x20ou\x20du','eStream','Download','bKGfF','ghVtK','10xOeldm','ytdl-core','thumbnail','*\x0a\x0a*🔰.𝐕ɪᴇᴡ','528VoteUM','©\x20𝐂ʀᴇᴀᴛᴇᴅ\x20','LDsnq','𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗','ꜰᴄ*','GzZrf','ound','𝚛\x20𝚂𝚘𝚗𝚐\x20𝚒𝚜\x20','url','cherche\x20ou','join','-core.js','\x0a\x20*MASTER-','SxAWz','sendMessag','Une\x20erreur','___⏳*\x0a▬▬▬▬','𝚐⬇️*\x0a*𝙿𝚕𝚎𝚊𝚜','ᴇʀꜱ:*\x20*','io\x20:','ier\x20vidéo.','IYcPz','𝚎\x20𝚠𝚊𝚒𝚝\x20Sir','GWRJx','re\x20du\x20fich','QoeUg','𝚗𝚐⬇️*\x0a*𝙿𝚕𝚎𝚊','createWrit','\x20VIDEO\x20DOW','𝐌ʀ\x20𝐒ᴀʜᴀɴ\x20𝐎','*\x0a\x0a*🔰.𝐃ᴜʀᴀ','ᴀɴ\x20𝐎ꜰᴄ*','argement\x20d','ier\x20audio.','NLOADER__🥷🏻','pipe','ᴛɪᴏɴ:*\x20*','ichier\x20aud','do\x20you\x20wan','video','oEMcV','🥷🏻🎼*\x0a\x0a*🔰.𝐓ɪ','taWry','*\x0a\x0a*🔰.𝐀ᴜᴛʜ','timestamp','UdYYM','snzty','peg','ɴ\x20𝐎ꜰᴄ*','chooseForm','finish','1376298LzDMYq','audioonly','../framewo','a\x20vidéo.','*\x0a\x0a▬▬▬▬▬▬▬','𝚛\x20𝚟𝚒𝚍𝚎𝚘\x20𝚒𝚜','MXsZp','iture\x20du\x20f','author','error','3230154PvoahY','ʀᴇᴀᴛᴇᴅ\x20𝐁ʏ\x20','\x20télécharg','\x20du\x20téléch','ZJqDJ','ᴀᴅᴇᴅ:*\x20*','fekKp','*\x0a\x0a*🔰.𝐔ᴘʟᴏ','tXxil','rk/dl/ytdl','📽️*\x0a\x0a*🔰.𝐓ɪᴛ','downloadFr','nue\x20lors\x20d','name','XTCRv','153748jaDHPb','highestaud','s\x20de\x20la\x20re','ʟᴇ:*\x20*','WNLOADER__','fluent-ffm','2697666hlkwMp','length','rk/zokou','KfNWQ','pSRCk','TuTbx','youtube-yt','EgIXj','gZZhX','eo\x20name','*MASTER-MD','▬▬▬▬▬\x0a*©\x20𝐂','*\x20*','𝚜𝚎\x20𝚠𝚊𝚒𝚝___','reihS','s\x20de\x20l\x27écr','\x20𝐁ʏ\x20𝐌ʀ\x20𝐒ᴀʜ','ODOft','Envoi\x20du\x20f','Pvnpq','getInfo','formats','yt-search','oKjXJ','wich\x20song\x20','log','\x20𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒','io\x20terminé','./video.mp','*©\x20𝐂ʀᴇᴀᴛᴇᴅ','videos','audio.mp3','Erreur\x20lor','cBuwX','title','insert\x20vid','éo\x20:'];_0x496d=function(){return _0x5646fc;};return _0x496d();}const _0x5741dc=_0x32b6;(function(_0x4704f5,_0x48bc64){const _0x1dc091=_0x32b6,_0x2561f0=_0x4704f5();while(!![]){try{const _0x45bbfc=-parseInt(_0x1dc091(0x204))/(0x2602+0x1*-0x1564+-0x109d*0x1)+-parseInt(_0x1dc091(0x223))/(-0x211*-0x4+-0xcc*-0x6+-0x2*0x685)+parseInt(_0x1dc091(0x255))/(0x3d6*-0x8+-0x9*-0x3da+-0x91*0x7)*(-parseInt(_0x1dc091(0x271))/(0x962*-0x3+0x3*-0x579+0x1*0x2c95))+-parseInt(_0x1dc091(0x26d))/(-0x216a+-0x2099+0x4208)*(parseInt(_0x1dc091(0x20e))/(-0x912+0x2ba*-0xc+-0x2*-0x14e8))+-parseInt(_0x1dc091(0x21d))/(0xa*0x28c+-0x1*-0xe3+-0x1*0x1a54)+-parseInt(_0x1dc091(0x24e))/(-0x316*0x8+0x1*0x12c8+0x8*0xbe)+parseInt(_0x1dc091(0x267))/(-0x1a4d*0x1+0x3*0x963+-0x1d3);if(_0x45bbfc===_0x48bc64)break;else _0x2561f0['push'](_0x2561f0['shift']());}catch(_0x5913ba){_0x2561f0['push'](_0x2561f0['shift']());}}}(_0x496d,-0x325c7+0x1234a+0xe2b01));const {zokou}=require(_0x5741dc(0x206)+_0x5741dc(0x225)),yts=require(_0x5741dc(0x239)),ytdl=require(_0x5741dc(0x26e)),fs=require('fs'),yt=require(_0x5741dc(0x206)+_0x5741dc(0x217)+_0x5741dc(0x27c)),ffmpeg=require(_0x5741dc(0x222)+_0x5741dc(0x200)),yts1=require(_0x5741dc(0x229)+'s');function _0x32b6(_0x1ca49a,_0x110298){const _0x2771fa=_0x496d();return _0x32b6=function(_0xe9d32,_0x3518a3){_0xe9d32=_0xe9d32-(0xaed+-0x6*-0x5c9+-0x2bc2*0x1);let _0x55fc55=_0x2771fa[_0xe9d32];return _0x55fc55;},_0x32b6(_0x1ca49a,_0x110298);}zokou({'nomCom':_0x5741dc(0x257),'categorie':_0x5741dc(0x26a),'reaction':'🎵'},async(_0x1b9598,_0x114379,_0x1d0e5c)=>{const _0x3735ed=_0x5741dc,_0x2981b6={'fekKp':_0x3735ed(0x242),'oEMcV':_0x3735ed(0x264),'yuqHj':_0x3735ed(0x235)+_0x3735ed(0x1f6)+_0x3735ed(0x23e)+'\x20!','zVExo':_0x3735ed(0x243)+_0x3735ed(0x232)+_0x3735ed(0x20b)+_0x3735ed(0x1f6)+_0x3735ed(0x1e4),'bKGfF':function(_0x20f057,_0x242872){return _0x20f057(_0x242872);},'oKjXJ':_0x3735ed(0x280)+_0x3735ed(0x256)+_0x3735ed(0x21a)+_0x3735ed(0x25f)+_0x3735ed(0x1e9)+_0x3735ed(0x1f2),'nhXjb':function(_0x400f21,_0x3f65c0){return _0x400f21(_0x3f65c0);},'gZZhX':_0x3735ed(0x23b)+_0x3735ed(0x1f7)+'t.','snzty':function(_0xdde074,_0x4e76ac){return _0xdde074>_0x4e76ac;},'XTCRv':function(_0xc034b0,_0x487ec3,_0x3bb654){return _0xc034b0(_0x487ec3,_0x3bb654);},'GWRJx':_0x3735ed(0x205),'IYcPz':_0x3735ed(0x21e)+'io','kWGgU':_0x3735ed(0x203),'SxAWz':_0x3735ed(0x20d),'TuTbx':_0x3735ed(0x24b)+_0x3735ed(0x25a)+'.','UdYYM':_0x3735ed(0x243)+_0x3735ed(0x21f)+_0x3735ed(0x27a)+_0x3735ed(0x211)+_0x3735ed(0x1f1)+_0x3735ed(0x25b)+'\x20:','QoeUg':function(_0x407b34,_0x3208c6){return _0x407b34(_0x3208c6);},'EgIXj':_0x3735ed(0x280)+_0x3735ed(0x256)+_0x3735ed(0x21a)+_0x3735ed(0x266)+_0x3735ed(0x268)+_0x3735ed(0x210)+_0x3735ed(0x24c)+_0x3735ed(0x207)},{ms:_0x137355,repondre:_0x32acfe,arg:_0x68530f}=_0x1d0e5c;if(!_0x68530f[0xa9d+-0x3*-0x63a+-0x1d4b]){_0x2981b6[_0x3735ed(0x253)](_0x32acfe,_0x2981b6[_0x3735ed(0x22b)]);return;}try{let _0x5c6f77=_0x68530f[_0x3735ed(0x27b)]('\x20');const _0x48e14c=await _0x2981b6[_0x3735ed(0x26b)](yts,_0x5c6f77),_0x302476=_0x48e14c[_0x3735ed(0x241)];if(_0x302476&&_0x2981b6[_0x3735ed(0x1ff)](_0x302476[_0x3735ed(0x224)],-0x4f4+0x16a5+-0x1*0x11b1)&&_0x302476[-0x1d3d+-0x1e68+-0x3ba5*-0x1]){const _0x3256d0=_0x302476[-0x1*-0x173a+-0x203*-0xc+-0x2f5e][_0x3735ed(0x279)];let _0x5e8749={'image':{'url':_0x302476[0x1*0x185e+0x92d+0x218b*-0x1][_0x3735ed(0x26f)]},'caption':_0x3735ed(0x27d)+_0x3735ed(0x25e)+_0x3735ed(0x221)+_0x3735ed(0x1fa)+_0x3735ed(0x254)+_0x302476[0xd1f+-0x229b+0x157c][_0x3735ed(0x245)]+(_0x3735ed(0x1ef)+_0x3735ed(0x1f5))+_0x302476[-0x18b8+-0x128+0x19e0][_0x3735ed(0x1fd)]+(_0x3735ed(0x270)+_0x3735ed(0x1e3))+_0x302476[0x6*-0x25c+0x145d*-0x1+-0x2285*-0x1][_0x3735ed(0x263)]+(_0x3735ed(0x215)+_0x3735ed(0x213))+_0x302476[-0x1c6+-0x1d1f+0x2cf*0xb][_0x3735ed(0x258)]+(_0x3735ed(0x1fc)+_0x3735ed(0x250))+_0x302476[-0x561*-0x1+-0x107*-0x25+-0x15b2*0x2][_0x3735ed(0x20c)][_0x3735ed(0x21b)]+(_0x3735ed(0x259)+_0x3735ed(0x22f))+_0x302476[-0x1c72+0x48f*0x3+0xec5][_0x3735ed(0x279)]+(_0x3735ed(0x208)+_0x3735ed(0x261)+_0x3735ed(0x278)+_0x3735ed(0x274)+_0x3735ed(0x1e2)+_0x3735ed(0x1e7)+_0x3735ed(0x1e1)+_0x3735ed(0x252)+_0x3735ed(0x272)+_0x3735ed(0x24f)+_0x3735ed(0x201))};_0x114379[_0x3735ed(0x27f)+'e'](_0x1b9598,_0x5e8749,{'quoted':_0x137355});const _0x2c92a0=_0x2981b6[_0x3735ed(0x21c)](ytdl,_0x3256d0,{'filter':_0x2981b6[_0x3735ed(0x1e8)],'quality':_0x2981b6[_0x3735ed(0x1e6)]}),_0x3ae990=_0x2981b6[_0x3735ed(0x214)],_0xc19f25=fs[_0x3735ed(0x1ec)+_0x3735ed(0x269)](_0x3ae990);_0x2c92a0[_0x3735ed(0x1f4)](_0xc19f25),_0xc19f25['on'](_0x2981b6[_0x3735ed(0x24a)],()=>{const _0xd67ef0=_0x3735ed;_0x114379[_0xd67ef0(0x27f)+'e'](_0x1b9598,{'audio':{'url':_0x2981b6[_0xd67ef0(0x214)]},'mimetype':_0x2981b6[_0xd67ef0(0x1f9)]},{'quoted':_0x137355,'ptt':![]}),console[_0xd67ef0(0x23c)](_0x2981b6[_0xd67ef0(0x262)]);}),_0xc19f25['on'](_0x2981b6[_0x3735ed(0x27e)],_0x34aa80=>{const _0x21c4a3=_0x3735ed;console[_0x21c4a3(0x20d)](_0x2981b6[_0x21c4a3(0x25d)],_0x34aa80),_0x2981b6[_0x21c4a3(0x26b)](_0x32acfe,_0x2981b6[_0x21c4a3(0x23a)]);});}else _0x2981b6[_0x3735ed(0x26b)](_0x32acfe,_0x2981b6[_0x3735ed(0x228)]);}catch(_0x333330){console[_0x3735ed(0x20d)](_0x2981b6[_0x3735ed(0x1fe)],_0x333330),_0x2981b6[_0x3735ed(0x1ea)](_0x32acfe,_0x2981b6[_0x3735ed(0x22a)]);}}),zokou({'nomCom':_0x5741dc(0x1f8),'categorie':_0x5741dc(0x26a),'reaction':'🎥'},async(_0x46dc4d,_0x545675,_0x1fc022)=>{const _0x290541=_0x5741dc,_0x39593a={'cBuwX':_0x290541(0x23f)+'4','yMEqa':_0x290541(0x240)+_0x290541(0x233)+_0x290541(0x1f0),'MXsZp':_0x290541(0x243)+_0x290541(0x232)+_0x290541(0x20b)+_0x290541(0x251)+_0x290541(0x247),'pSRCk':function(_0x55646b,_0x4dd077){return _0x55646b(_0x4dd077);},'ODOft':_0x290541(0x280)+_0x290541(0x256)+_0x290541(0x21a)+_0x290541(0x25f)+_0x290541(0x1e9)+_0x290541(0x1e5),'ZJqDJ':function(_0x4917e7,_0x211269){return _0x4917e7(_0x211269);},'GzZrf':_0x290541(0x246)+_0x290541(0x22c),'Pvnpq':function(_0xc2a572,_0xc64e){return _0xc2a572>_0xc64e;},'reihS':_0x290541(0x260),'tXxil':_0x290541(0x203),'ghVtK':_0x290541(0x20d),'taWry':_0x290541(0x25c)+_0x290541(0x277),'zuJqJ':_0x290541(0x243)+_0x290541(0x21f)+_0x290541(0x27a)+_0x290541(0x211)+_0x290541(0x1f1)+_0x290541(0x25b)+'\x20:','LDsnq':function(_0x330c1e,_0x1c2724){return _0x330c1e(_0x1c2724);},'KfNWQ':_0x290541(0x280)+_0x290541(0x256)+_0x290541(0x21a)+_0x290541(0x266)+_0x290541(0x268)+_0x290541(0x210)+_0x290541(0x24c)+_0x290541(0x207)},{arg:_0x27af50,ms:_0x5e8686,repondre:_0x1df926}=_0x1fc022;if(!_0x27af50[-0x2f3*-0x5+0x1*-0x1d3+-0x4*0x33b]){_0x39593a[_0x290541(0x212)](_0x1df926,_0x39593a[_0x290541(0x276)]);return;}const _0x2b4fbe=_0x27af50[_0x290541(0x27b)]('\x20');try{const _0x56f865=await _0x39593a[_0x290541(0x227)](yts,_0x2b4fbe),_0x496586=_0x56f865[_0x290541(0x241)];if(_0x496586&&_0x39593a[_0x290541(0x236)](_0x496586[_0x290541(0x224)],0x4ef+0x1654+0x1b43*-0x1)&&_0x496586[0xd6b+0x1*0x2171+-0x2edc]){const _0x3dc975=_0x496586[0x1*0x1652+-0x135*-0x2+-0x18bc];let _0x2d9083={'image':{'url':_0x496586[-0x1382+0x198+0x11ea*0x1][_0x290541(0x26f)]},'caption':_0x290541(0x22d)+_0x290541(0x1ed)+_0x290541(0x1f3)+_0x290541(0x218)+_0x290541(0x220)+_0x3dc975[_0x290541(0x245)]+(_0x290541(0x1ef)+_0x290541(0x1f5))+_0x3dc975[_0x290541(0x1fd)]+(_0x290541(0x270)+_0x290541(0x1e3))+_0x3dc975[_0x290541(0x263)]+(_0x290541(0x215)+_0x290541(0x213))+_0x3dc975[_0x290541(0x258)]+(_0x290541(0x1fc)+_0x290541(0x250))+_0x3dc975[_0x290541(0x20c)][_0x290541(0x21b)]+(_0x290541(0x259)+_0x290541(0x22f))+_0x3dc975[_0x290541(0x279)]+(_0x290541(0x208)+_0x290541(0x261)+_0x290541(0x209)+_0x290541(0x23d)+_0x290541(0x1eb)+_0x290541(0x230)+_0x290541(0x24d)+_0x290541(0x22e)+_0x290541(0x20f)+_0x290541(0x1ee)+_0x290541(0x275))};_0x545675[_0x290541(0x27f)+'e'](_0x46dc4d,_0x2d9083,{'quoted':_0x5e8686});const _0x37053b=await ytdl[_0x290541(0x237)](_0x3dc975[_0x290541(0x279)]),_0x4e9bea=ytdl[_0x290541(0x202)+'at'](_0x37053b[_0x290541(0x238)],{'quality':'18'}),_0x387be1=ytdl[_0x290541(0x219)+_0x290541(0x248)](_0x37053b,{'format':_0x4e9bea}),_0x3b19ef=_0x39593a[_0x290541(0x231)],_0x50db2a=fs[_0x290541(0x1ec)+_0x290541(0x269)](_0x3b19ef);_0x387be1[_0x290541(0x1f4)](_0x50db2a),_0x50db2a['on'](_0x39593a[_0x290541(0x216)],()=>{const _0x41659a=_0x290541;_0x545675[_0x41659a(0x27f)+'e'](_0x46dc4d,{'video':{'url':_0x39593a[_0x41659a(0x244)]},'caption':_0x39593a[_0x41659a(0x249)],'gifPlayback':![]},{'quoted':_0x5e8686});}),_0x50db2a['on'](_0x39593a[_0x290541(0x26c)],_0x23f76e=>{const _0x10adcd=_0x290541;console[_0x10adcd(0x20d)](_0x39593a[_0x10adcd(0x20a)],_0x23f76e),_0x39593a[_0x10adcd(0x227)](_0x1df926,_0x39593a[_0x10adcd(0x234)]);});}else _0x39593a[_0x290541(0x227)](_0x1df926,_0x39593a[_0x290541(0x1fb)]);}catch(_0x2a520a){console[_0x290541(0x20d)](_0x39593a[_0x290541(0x265)],_0x2a520a),_0x39593a[_0x290541(0x273)](_0x1df926,_0x39593a[_0x290541(0x226)]);}});
